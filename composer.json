@@ -17,7 +17,12 @@
         "symfony/monolog-bundle": "~2.4",
         "sensio/distribution-bundle": "~3.0",
         "sensio/framework-extra-bundle": "~3.0",
-        "incenteev/composer-parameter-handler": "~2.0"
+        "incenteev/composer-parameter-handler": "~2.0",
+
+        "friendsofsymfony/user-bundle": "2.0.*@dev",
+        "hwi/oauth-bundle": "0.4.*@dev",
+
+        "zimzim62000/user-bundle": "dev-master"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
@@ -56,5 +61,11 @@
         "branch-alias": {
             "dev-master": "2.6-dev"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/zimzim62000/UserBundle.git"
+        }
+    ]
 }

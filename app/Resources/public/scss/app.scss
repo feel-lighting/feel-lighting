@@ -1,0 +1,7 @@
+@import "normalize";
+@import "_settings";
+@import "_foundation_mod";
+
+html, body{
+    background: $primary-color;
+}

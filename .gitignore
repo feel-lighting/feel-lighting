@@ -17,3 +17,10 @@
 /.sass-cache
 /node_modules
 /bower_components
+
+/app/Resources/public/js/*
+!/app/Resources/public/js/app.js
+/app/Resources/public/css/*
+/app/Resources/public/css/.gitkeep
+/web/js
+/web/css
