@@ -1,0 +1,45 @@
+#!/bin/bash
+
+clean=false
+
+if [ $1 = "ccdev" ]
+then
+    php /home/%dir%/bin/console cache:clear
+    clean=true
+    break
+fi
+
+if [ $1 = "ccprod" ]
+then
+    php /home/%dir%/bin/console cache:clear --env=prod
+    clean=true
+    break
+fi
+
+if [ $1 = "assets" ]
+then
+    php /home/%dir%/bin/console assets:install --symlink
+    break
+fi
+
+if [ $1 = "deploy" ]
+then
+    grunt
+    php /home/%dir%/bin/console assetic:dump
+    break
+fi
+
+if [ $1 = "sql" ]
+then
+    php /home/%dir%/bin/console doctrine:schema:update --force
+    break
+fi
+
+if [ $clean = true ]
+then
+    sudo chmod -R 0770 /home/%dir%/var/cache
+    sudo chown -R %user%:www-data /home/%dir%/var/cache
+    sudo chmod -R 0770 /home/%dir%/var/logs
+    sudo chown -R %user%:www-data /home/%dir%/var/logs
+    break
+fi
