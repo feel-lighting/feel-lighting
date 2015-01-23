@@ -24,3 +24,5 @@
 /app/Resources/public/css/.gitkeep
 /web/js
 /web/css
+/web/resources
+!/web/resources/.gitkeep

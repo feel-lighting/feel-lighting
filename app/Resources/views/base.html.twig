@@ -15,7 +15,8 @@
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
-        {% block body %}{% endblock %}
+        {% block body %}
+        {% block page %}{% endblock page %}
         {% block javascripts %}
             {% if app.environment == 'prod' %}
             {% javascripts '../app/Resources/public/js/min.js' %}
@@ -37,5 +38,6 @@
                 $(document).foundation();
             </script>
         {% endblock %}
+        {% endblock body %}
     </body>
 </html>

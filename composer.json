@@ -12,7 +12,7 @@
         "doctrine/orm": "~2.2,>=2.2.3",
         "doctrine/doctrine-bundle": "~1.2",
         "twig/extensions": "~1.0",
-        "symfony/assetic-bundle": "~2.3",
+        "symfony/assetic-bundle": "dev-master",
         "symfony/swiftmailer-bundle": "~2.3",
         "symfony/monolog-bundle": "~2.4",
         "sensio/distribution-bundle": "~3.0",
@@ -22,7 +22,12 @@
         "friendsofsymfony/user-bundle": "2.0.*@dev",
         "hwi/oauth-bundle": "0.4.*@dev",
 
-        "zimzim62000/user-bundle": "dev-master"
+        "gedmo/doctrine-extensions": "2.3.*@dev",
+        "apy/datagrid-bundle": "dev-master",
+
+        "zimzim62000/user-bundle": "dev-master",
+        "zimzim62000/categoryproduct-bundle": "dev-master",
+        "zimzim62000/tools-bundle": "dev-master"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
@@ -66,6 +71,14 @@
         {
             "type": "git",
             "url": "https://github.com/zimzim62000/UserBundle.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/zimzim62000/CategoryProductBundle.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/zimzim62000/ToolsBundle.git"
         }
     ]
 }

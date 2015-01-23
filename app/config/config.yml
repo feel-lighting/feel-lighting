@@ -2,11 +2,15 @@ imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
     - { resource: services.yml }
+    - { resource: config/apy_data_grid.yml }
+    - { resource: config/service_doctrine_extensions.yml }
     - { resource: config/zimzim_user.yml }
+    - { resource: config/zimzim_categoryproduct.yml }
+    - { resource: config/zimzim_tools.yml }
 
 framework:
     #esi:             ~
-    #translator:      { fallback: "%locale%" }
+    translator:      { fallback: "%locale%" }
     secret:          "%secret%"
     router:
         resource: "%kernel.root_dir%/config/routing.yml"
@@ -35,7 +39,7 @@ twig:
 assetic:
     debug:          "%kernel.debug%"
     use_controller: false
-    bundles:        [ ]
+    bundles:        [ ZIMZIMToolsBundle ]
     #java: /usr/bin/java
     filters:
         cssrewrite: ~

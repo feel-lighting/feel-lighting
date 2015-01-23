@@ -1,0 +1,95 @@
+{% extends 'ZIMZIMCategoryProductBundle::layout.html.twig' %}
+
+{% block title %}
+    {% if entity.title != null %}
+        {{ entity.title }}
+    {% else %}
+        {{ parent() }}
+    {% endif %}
+{% endblock title %}
+
+{% block metadescription %}
+    {% if entity.description != null %}
+        {{ entity.description }}
+    {% else %}
+        {{ parent() }}
+    {% endif %}
+{% endblock metadescription %}
+
+
+{% block page %}
+
+    {% block breadcrumbs %}
+        {% if entity.Parents|length != 0 %}
+            <nav class="breadcrumbs">
+                {% for key, parent in entity.Parents if parent != null %}
+                    {% if parent.slug == "" %}
+                        {% set linkparent = path('zimzim_categoryproduct_category_listslugnull') %}
+                    {% else %}
+                        {% set linkparent = path('zimzim_categoryproduct_category_listslug', {'slug':parent.slug}) %}
+                    {% endif %}
+                    <a {% if parent.id == entity.id %} class="current"{% endif %} href="{{ linkparent }}">
+                        {{ parent.name }}
+                    </a>
+                {% endfor %}
+            </nav>
+        {% endif %}
+    {% endblock breadcrumbs %}
+
+    {% if entity.slug == "" %}
+        {% set linkentity = path('zimzim_categoryproduct_category_listslugnull') %}
+    {% else %}
+        {% set linkentity = path('zimzim_categoryproduct_category_listslug', {'slug':entity.slug}) %}
+    {% endif %}
+
+            <div class="row full-width">
+                <div class="medium-12 columns">
+                        <h1 class="text-center headertitle">
+							<a href="{{ linkentity }}">
+								<img src="/{{ entity.webpath }}" class="imageheadertitle"/>
+								&nbsp;&nbsp;
+								{{ entity.name }}
+							</a>
+                        </h1>
+                </div>
+                {% if entity.content != null %}
+                    <div class="medium-12 columns">
+                        {{ entity.content|raw }}
+                    </div>
+                {% endif %}
+            </div>
+
+
+
+    {% if entity.children|length != 0 %}
+
+        <hr class="category">
+
+        <div class="row full-width">
+            <div class="small-10 small-centered columns">
+                <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4">
+                    {% for child in entity.children %}
+                        {% include 'ZIMZIMCategoryProductBundle:Category:include/categorybox.html.twig' with {'child': child} %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+    {% endif %}
+
+    {% if entity.categoryproducts|length != 0 %}
+
+        <hr class="category">
+
+        <div class="row full-width">
+            <div class="small-10 small-centered columns">
+                <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-4">
+                    {% for categoryproduct in entity.categoryproducts %}
+                        {% include 'ZIMZIMCategoryProductBundle:Category:include/categoryproductbox.html.twig' with {'categoryproduct': categoryproduct} %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    {% endif %}
+
+{% endblock page %}

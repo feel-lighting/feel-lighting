@@ -1,7 +1,529 @@
 @import "normalize";
 @import "_settings";
 @import "_foundation_mod";
+@import "_icoonmoon";
+@import "_owlcarousel";
+@import "compass/css3";
 
-html, body{
+/******************************************* css ************************************/
+
+$black: #000000;
+$grey: #333333;
+$white: #FFFFFF;
+$lightwhite: #F6F6F6;
+
+$darkgrey: #696C6D;
+$darkblue: #4A597E;
+$blue: #8598BD;
+$lightblue: #afbde1;
+
+.bgblue{
+    color: $blue !important;
+}
+.bglightblue{
+    color: $lightblue !important;
+}
+.bgdarkstyle{
+    color: $darkblue !important;
+}
+.bgdarkgrey{
+    color: $darkgrey !important;
+}
+
+
+$grey: #333333;
+$heightfooter: 250px;
+$heightfootermin: 200px;
+$heightfootersmall: 400px;
+
+html, body {
+    height: 100%;
+}
+
+div.sticky {
+    z-index: 105;
+    nav.top-bar {
+        z-index: 106;
+    }
+}
+
+/******************************* footer *************************************/
+@media only screen and (min-width: 40.063em) {
+    .footer {
+        .columns.barre:nth-child(n+2) {
+            border-left: 1px solid scale-color(#fff, $lightness: -30%);
+            min-height: $heightfootermin;
+        }
+    }
+}
+
+@media only screen and (min-width: 40em) {
+    .footer {
+        background-color: $darkblue;
+        padding: 1rem 2rem;
+        text-align: center;
+        margin-top: -$heightfooter;
+        height: $heightfooter;
+        color: $white;
+    }
+    div.container {
+        height: auto;
+        min-height: 100%;
+        padding-bottom: $heightfooter;
+    }
+}
+
+@media only screen and (max-width: 40em) {
+    .footer {
+        height: $heightfootersmall;
+        margin-top: -$heightfootersmall;
+        background-color: $darkblue;
+        padding: 1rem 2rem;
+        text-align: center;
+        color: $white;
+    }
+    div.container {
+        height: auto;
+        min-height: 100%;
+        padding-bottom: $heightfootersmall;
+    }
+}
+
+.footer {
+    h4 {
+        color: $white;
+        font-size: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    p {
+        text-align: justify;
+        font-size: 0.8rem;
+    }
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    a {
+        color: $white;
+        font-weight: 300;
+        font-size: 0.8rem;
+    }
+    li {
+        margin-top: .5rem;
+    }
+}
+
+/********* logo tiers ***********/
+span.logo-small-tiers {
+    width: 40px;
+    height: 40px;
+    background-size: 120px 40px;
+    display: inline-block;
+}
+
+.image-facebook {
+    background-image: url('../../bundles/zimzimbundlesuser/images/logotiers.png');
+    background-position: 0;
+}
+
+.image-google {
+    background-image: url('../../bundles/zimzimbundlesuser/images/logotiers.png');
+    background-position: 80px;
+}
+
+.image-twitter {
+    background-image: url('../../bundles/zimzimbundlesuser/images/logotiers.png');
+    background-position: 40px;
+}
+
+span.logo-small-vendor {
+    width: 60px;
+    height: 60px;
+    background-size: 180px 60px;
+    display: inline-block;
+}
+
+.image-facebook-vendor {
+    background-image: url('../../bundles/zimzimbundlesuser/images/logo_vendor.png');
+    background-position: 0;
+}
+
+.image-google-vendor {
+    background-image: url('../../bundles/zimzimbundlesuser/images/logo_vendor.png');
+    background-position: 120px;
+}
+
+.image-youtube-vendor {
+    background-image: url('../../bundles/zimzimbundlesuser/images/logo_vendor.png');
+    background-position: 60px;
+}
+
+/************************ Tools **************/
+.pointer {
+    cursor: pointer;
+}
+
+.nomargin {
+    margin: 0 !important;
+}
+.nopadding {
+    padding: 0 !important;
+}
+
+.vertical-middle {
+    vertical-align: middle;
+}
+
+.width-100, .full-width {
+    width: 100%;
+    max-width: 100%;
+}
+
+/************************ Top bar **************/
+img.img-navbar{
+    margin: 25px 0 25px 15px;
+    height: 20px;
+}
+/************** COLOR **********************/
+.bg-lightwhite {
+    background: $lightwhite;
+}
+
+.border-lightwhite {
+    border: 1px SOLID $lightwhite;
+}
+
+/***************** category *******************/
+.title-category {
+    padding: 1rem 0 0.5rem 0;
+    font-weight: bold;
+    color: $black;
+}
+
+.fake-h1-category {
+    height: $h1-font-size;
+    margin-top: $header-top-margin;
+    margin-bottom: $header-bottom-margin;
+    display: block;
+    padding: 1rem 0 0.5rem;
+}
+
+.case-category {
+    background: $lightwhite;
+    border: 1px DASHED $black;
+}
+
+/************* image **************/
+img.img-medium {
+
+}
+
+/********************/
+select.select-multiple {
+    height: 9rem !important;
+}
+
+/****************** */
+hr.category {
+    margin-bottom: 2.5rem;
+}
+
+/*********************************************** change langage flag ************************************/
+span.country-flag {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    display: block;
+    width: 37px;
+    height: 25px;
+    background: url('../../bundles/zimzimbundlesuser/images/flags.png') 0 0 no-repeat;
+}
+
+.flag-fr {
+    background-position: 0 0 !important;
+}
+
+.flag-en {
+    background-position: -38px 0 !important;
+}
+
+.flag-al {
+    background-position: -76px 0 !important;
+}
+
+.flag-es {
+    background-position: -114px 0 !important;
+}
+
+.flag-ru {
+    background-position: -151.7px 0 !important;
+}
+
+/****************** page home *******************************/
+p.paratitle {
+    font-size: 2.5rem;
+    color: $primary-color;
+    text-align: center;
+}
+
+h1.headertitle {
+    font-size: 4rem;
+    color: $blue;
+    padding: 1.3rem 0 0;
+}
+img.imageheadertitle{
+    height: 6rem;
+}
+
+li.homebox {
+    @include single-transition(all, 300ms);
+    h2 {
+        color: $secondary-color;
+        font-size: 1.75rem;
+        text-align: center;
+        padding: 1rem 0 0;
+    }
+    p.parahome {
+        color: $black;
+        font-size: 1.1rem;
+        padding: 0.5rem;
+        text-align: justify;
+    }
+}
+
+li.homebox:hover {
     background: $primary-color;
+    @include single-transition(all, 300ms);
+    h2 {
+        color: $white
+    }
+    p.parahome {
+        color: $white;
+    }
+}
+
+p.paraplus{
+    padding: 2rem 0.5rem;
+    color: $black;
+}
+h2.titlehome{
+    color: $secondary-color;
+}
+
+/************************ product *******************************/
+div.product-image {
+    img.product-max {
+        max-height: 400px;
+    }
+    li {
+        text-align: center;
+        img.product-mini {
+            max-height: 75px;
+        }
+    }
+    li:hover {
+        background: $lightblue;
+    }
+}
+
+li.productbox {
+    @include single-transition(all, 300ms);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px SOLID $secondary-color;
+    h2 {
+        color: $secondary-color;
+        font-size: 1.75rem;
+        text-align: center;
+        padding: 1rem 0 0;
+    }
+    p {
+        color: $black;
+        font-size: 1.1rem;
+        padding: 0.5rem;
+        margin: 0 !important;
+        text-align: justify;
+    }
+    span.puce{
+        color: $blue;
+    }
+}
+
+li.productbox:hover {
+    background: #afbde1;
+    @include single-transition(all, 300ms);
+    h2 {
+        color: $white;
+    }
+    p {
+        color: $white;
+    }
+    span.puce{
+        color: $white;
+    }
+}
+div.home{
+    margin:0;
+    padding: 0.5rem 0;
+}
+
+/********************* app **************************************************/
+
+
+
+li.category-box {
+    background: #FFFFFF;
+    @include single-transition(translate, 300ms, ease-in-out);
+    div.fullfull {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        img {
+            padding: 0 2rem;
+            z-index: 101;
+        }
+    }
+    h2.title-categorybox {
+        z-index: 100;
+        font-size: 1.4rem;
+        line-height: 1rem;
+        padding: 0.1rem 0 0.5rem 0;
+        a {
+            font-family: $body-font-family;
+            color: $black;
+        }
+    }
+}
+
+/*************************************** carrousel *************************************/
+div.owl-item {
+    div.item {
+        position: relative;
+        @include single-transition(all, 1000ms, ease-in-out);
+        overflow: hidden;
+        @media only screen and (max-width: 40em) {
+            h2.title-itemhomebox {
+                position: absolute;
+                bottom: 100%;
+                left: 0;
+                right: 0;
+                transform-origin: 0 0;
+                transition-duration: 500ms;
+                transform: translateY(0);
+                z-index: 100;
+                font-size: 0.9rem;
+                line-height: 1rem;
+                background: rgba(255, 255, 255, 0.35);
+                padding-top: 1rem;
+                a {
+                    color: $secondary-color;
+                }
+            }
+            h3.title-itemhomebox {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                transform-origin: 0 0;
+                transition-duration: 500ms;
+                transform: translateX(-100%);
+                z-index: 100;
+                font-size: 0.7rem;
+                line-height: 1rem;
+                background: rgba(255, 255, 255, 0.35);
+                padding-bottom: 1rem;
+                padding-right: 1rem;
+                a {
+                    color: $secondary-color;
+                }
+            }
+        }
+        @media only screen and (min-width: 40em) {
+            h2.title-itemhomebox {
+                position: absolute;
+                bottom: 100%;
+                left: 0;
+                right: 0;
+                transform-origin: 0 0;
+                transition-duration: 500ms;
+                transform: translateY(0);
+                z-index: 100;
+                font-size: 1.3rem;
+                line-height: 2rem;
+                background: rgba(255, 255, 255, 0.35);
+                padding-top: 1rem;
+                a {
+                    color: $secondary-color;
+                }
+            }
+            h3.title-itemhomebox {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                transform-origin: 0 0;
+                transition-duration: 500ms;
+                transform: translateX(-100%);
+                z-index: 100;
+                font-size: 0.9rem;
+                line-height: 1.7rem;
+                background: rgba(255, 255, 255, 0.35);
+                padding-bottom: 1rem;
+                padding-right: 1rem;
+                a {
+                    color: $secondary-color;
+                }
+            }
+        }
+        div.icon-carousel {
+            display: block;
+            position: absolute;
+            bottom: 0;
+            top: 0;
+            width: 75px;
+            cursor: pointer;
+            img.iconmove {
+                height: 100%;
+                opacity: 0.07;
+            }
+        }
+        div.icon-carousel:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        div.icon-prev {
+            left: 0;
+        }
+        div.icon-next {
+            right: 0;
+        }
+    }
+}
+
+div.owl-item.active {
+    div.item {
+        position: relative;
+        @include single-transition(all, 1000ms, ease-in-out);
+        h2.title-itemhomebox {
+            transform: translateY(100%);
+            transform-origin: 0 0;
+            @include single-transition(all, 1000ms, ease-in-out);
+        }
+        h3.title-itemhomebox {
+            transform: translateX(0);
+            transform-origin: 0 0;
+            @include single-transition(all, 1000ms, ease-in-out);
+        }
+        div.icon-carousel img {
+            display: none;
+        }
+    }
+}
+
+div.owl-wrapper-outer {
+    position: relative;
+    z-index: 99;
 }

@@ -1,0 +1,69 @@
+site:
+    title : "Default site"
+    site: "default.site.fr"
+button:
+    register: "s'inscrire"
+    update: "modifier"
+    create: créer
+    show: voir
+    delete: supprimer
+    find: "rechercher"
+    close: "fermer"
+link:
+    return: "Retour à la liste"
+views:
+    navbar:
+        title: "default site"
+        menu: "Menu"
+        back: "Retour"
+        login: "Connexion"
+        register: "Inscription"
+        logout: "Déconnexion"
+        back: "Retour"
+        loginregister: "Connexion / Inscription"
+        usershow: "Mon compte"
+        contact: "Contact"
+        product: "Nos produits"
+        category: "Category"
+        adminproduct: "Produits"
+        admincategory: "Categories"
+        adminitemhome: "Carrousel"
+        adminuploadtinymce: "Upload"
+        plus: "En savoir plus"
+        cond: "Conditions générales de vente"
+        about: "A propos de nous"
+        contact: "Contactez-nous"
+        legale: "Mentions légales"
+        folowus: "Suivez-nous sur :"
+        clientspace: "Espace client"
+    HWIOAuthBundle:
+        connect:
+            login:
+                title1: "Connexion"
+                title2: "Avec votre compte préféré !"
+                title3: "Ou "
+                login: "connexion"
+                register: "inscription"
+    itemhome:
+        index:
+            title: "Feel, l’expert français de la LED"
+            feel: "Feel lighting c'est :"
+            hometitle1: "Société lilloise créée en 2002"
+            homepara1: "Spécialisée dans l’étude et la fabrication de dispositifs d’éclairage à LED, FEEL se distingue par sa capacité d’innovation et sa réactivité"
+            hometitle2: "Maîtrise des technologies"
+            homepara2: "Le management thermique, l’optique et bien entendu les platines à LED pilotées par des alimentations également conçus en interne."
+            hometitle3: "Feel c'est aussi ..."
+            homepara3: " L’association de solutions solaires, éolienne, détection de présence, communication RF. Cela nous permet de répondre aux exigences techniques des clients aux conditions économiques définies à l’origine du projet."
+            hometitle4: "Fabrication française"
+            homepara4: "Notre process fabrication est intégralement réalisées en France afin de garantir une qualité irréprochable. Toutes nos conceptions sont réalisées rigoureusement selon les normes applicables."
+            titleeco: "Feel -  Les LED - L'écologie"
+            paraeco:  >
+                FEEL est le spécialiste dans l’éclairage à base de LED, et solutions de câblages pour les professionnels.<br />
+                Feel c'est une large gamme de produits de Projecteurs LED, et Tubes LED. Tous plus respectueux de l’environnement.
+                En effet l’utilisation d’éclairage permet de diviser par trois la production de CO2 et de diminuer considérablement sa consommation d’énergie.<br />
+        connectadmin: "feel-connect"
+    product:
+        showslug:
+            feature: "Caractéristiques"
+            listing: "Gamme"
+            specification: "Spécifications électriques @ 25°C"

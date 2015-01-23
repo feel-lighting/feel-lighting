@@ -1,0 +1,17 @@
+{% if child.slug == "" %}
+    {% set linkchild = path('zimzim_categoryproduct_category_listslugnull') %}
+{% else %}
+    {% set linkchild = path('zimzim_categoryproduct_category_listslug', {'slug':child.slug}) %}
+{% endif %}
+
+<li class="category-box">
+    <div class="fullfull pointer">
+        <img class="img-medium pointer" src="/{{ child.webpath }}" onClick="location.href='{{ linkchild }}';"
+             alt="{{ child.name }} - {{ child.description }}" />
+    </div>
+	        <h2 class="text-center title-categorybox nomargin">
+            <a href="{{ linkchild }}">
+                {{ child.name }}
+            </a>
+        </h2>
+</li>

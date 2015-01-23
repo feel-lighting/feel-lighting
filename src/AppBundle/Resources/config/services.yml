@@ -1,0 +1,5 @@
+services:
+    zimzim_appbundle.form.type.zimzimcollectionformtype:
+        class: ZIMZIM\AppBundle\Form\Type\ProductType
+        tags:
+            - { name: form.type, alias: zimzim_appbundle_producttype }

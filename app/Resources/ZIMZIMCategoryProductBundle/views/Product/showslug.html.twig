@@ -1,0 +1,131 @@
+{% extends 'ZIMZIMCategoryProductBundle::layout.html.twig' %}
+
+{% block title %}
+    {{ entity.title }}
+{% endblock title %}
+
+{% block metadescription %}
+    {{ entity.description }}
+{% endblock metadescription %}
+
+{% block page %}
+
+    {% block breadcrumbs %}
+        {% if category and category.Parents|length != 0 %}
+            <nav class="breadcrumbs">
+                {% for key, parent in category.Parents if parent != null %}
+                    {% if parent.slug == "" %}
+                        {% set linkparent = path('zimzim_categoryproduct_category_listslugnull') %}
+                    {% else %}
+                        {% set linkparent = path('zimzim_categoryproduct_category_listslug', {'slug':parent.slug}) %}
+                    {% endif %}
+                    <a {% if parent.id == category.id %} class="current"{% endif %} href="{{ linkparent }}">
+                        {{ parent.name }}
+                    </a>
+                {% endfor %}
+            </nav>
+        {% endif %}
+    {% endblock breadcrumbs %}
+
+    {% set number = 0 %}
+    {% if entity.webpath1 %}
+        {% set number = number + 1 %}
+    {% endif %}
+    {% if entity.webpath2 %}
+        {% set number = number + 1 %}
+    {% endif %}
+    {% if entity.webpath3 %}
+        {% set number = number + 1 %}
+    {% endif %}
+    {% if entity.webpath4 %}
+        {% set number = number + 1 %}
+    {% endif %}
+    {% if entity.webpath5 %}
+        {% set number = number + 1 %}
+    {% endif %}
+    {% if entity.webpath6 %}
+        {% set number = number + 1 %}
+    {% endif %}
+
+    <div class="row">
+        <div class="small-12 columns">
+            <h1 class="text-center headerpagehome">
+                {{ entity.title }}
+            </h1>
+        </div>
+    </div>
+    <div class="row product-image">
+        <div class="medium-12 columns text-center">
+            <img id="product-max" class="product-max" src="/{{ entity.webpath1 }}"/>
+        </div>
+        <div class="medium-12 columns text-center home">
+        </div>
+        <div class="medium-8 medium-centered columns">
+            <ul class="small-block-grid-3 medium-block-grid-{{ number }}">
+                {% if entity.webpath1 %}
+                    <li class="nopadding">
+                        <img alt="{{ entity.altPath1 }}" class="product-mini" src="/{{ entity.webpath1 }}"
+                             onClick="$('#product-max').attr('src', $(this).attr('src'));"/>
+                    </li>
+                {% endif %}
+                {% if entity.webpath2 %}
+                    <li class="nopadding">
+                        <img alt="{{ entity.altPath2 }}" class="product-mini" src="/{{ entity.webpath2 }}"
+                             onClick="$('#product-max').attr('src', $(this).attr('src'));"/>
+                    </li>
+                {% endif %}
+                {% if entity.webpath3 %}
+                    <li class="nopadding">
+                        <img alt="{{ entity.altPath3 }}" class="product-mini" src="/{{ entity.webpath3 }}"
+                             onClick="$('#product-max').attr('src', $(this).attr('src'));"/>
+                    </li>
+                {% endif %}
+                {% if entity.webpath4 %}
+                    <li class="nopadding">
+                        <img alt="{{ entity.altPath4 }}" class="product-mini" src="/{{ entity.webpath4 }}"
+                             onClick="$('#product-max').attr('src', $(this).attr('src'));"/>
+                    </li>
+                {% endif %}
+                {% if entity.webpath5 %}
+                    <li class="nopadding">
+                        <img alt="{{ entity.altPath5 }}" class="product-mini" src="/{{ entity.webpath5 }}"
+                             onClick="$('#product-max').attr('src', $(this).attr('src'));"/>
+                    </li>
+                {% endif %}
+                {% if entity.webpath6 %}
+                    <li class="nopadding">
+                        <img alt="{{ entity.altPath6 }}" class="product-mini" src="/{{ entity.webpath6 }}"
+                             onClick="$('#product-max').attr('src', $(this).attr('src'));"/>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="medium-12 columns">
+            <ul class="small-block-grid-1">
+                <li class="productbox text-left">
+                    {#<h2>
+                        {{ 'views.product.showslug.feature'|trans }} - {{ entity.name }}
+                    </h2>#}
+                    {{ entity.feature|raw }}
+                </li>
+                <li class="productbox text-left">
+                    {#<h2>
+                        {{ 'views.product.showslug.listing'|trans }} - {{ entity.name }}
+                    </h2>#}
+                    {{ entity.listing|raw }}
+                </li>
+                <li class="productbox text-left">
+                    {#<h2>
+                        {{ 'views.product.showslug.specification'|trans }} - {{ entity.name }}
+                    </h2>#}
+                    {{ entity.specification|raw }}
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+{% endblock page %}

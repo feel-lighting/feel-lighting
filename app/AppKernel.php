@@ -18,8 +18,11 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
 
             new AppBundle\AppBundle(),
-            new \ZIMZIM\UserBundle\ZIMZIMUserBundle(),
+            new ZIMZIM\UserBundle\ZIMZIMUserBundle(),
+            new ZIMZIM\CategoryProductBundle\ZIMZIMCategoryProductBundle(),
+            new ZIMZIM\ToolsBundle\ZIMZIMToolsBundle(),
 
+            new APY\DataGridBundle\APYDataGridBundle(),
 
             new FOS\UserBundle\FOSUserBundle(),
             new HWI\Bundle\OAuthBundle\HWIOAuthBundle()

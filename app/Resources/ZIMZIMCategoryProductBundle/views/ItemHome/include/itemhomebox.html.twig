@@ -1,0 +1,26 @@
+{% set linkentity = linker.getLink(entity) %}
+
+<div class="item">
+    <a href="{{ linkentity }}">
+        <img class="itemhome" src="/{{ entity.webpath }}"
+         alt="{{ entity.name }} - {{ entity.description }}"/>
+    </a>
+    <h2 class="text-center title-itemhomebox nomargin">
+        <a href="{{ linkentity }}">
+            {{ entity.name }}
+        </a>
+    </h2>
+    <h3 class="text-center title-itemhomebox nomargin">
+        <a href="{{ linkentity }}">
+            {{ entity.description }}
+        </a>
+    </h3>
+	{#
+    <div class="icon-carousel icon-prev" onClick="Carousel.prev();">
+        <img class="iconmove" src="{{ asset('bundles/zimzimbundlesuser/images/diode-left.png') }}"/>
+    </div>
+    <div class="icon-carousel icon-next" onClick="Carousel.next();" >
+        <img class="iconmove" src="{{ asset('bundles/zimzimbundlesuser/images/diode-right.png') }}"/>
+    </div>
+	#}
+</div>
