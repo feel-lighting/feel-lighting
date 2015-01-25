@@ -92,7 +92,7 @@ module.exports = function(grunt){
     });
 
     grunt.registerTask('default', ['css', 'js']);
-    grunt.registerTask('dev', ['jsdev', 'jshint']);
+    grunt.registerTask('dev', ['jsdev', 'jshint', 'cssdev']);
     grunt.registerTask('cssdev', ['compass', 'autoprefixer']);
     grunt.registerTask('jsdev', ['jshint']);
     grunt.registerTask('js', ['jshint', 'uglify']);

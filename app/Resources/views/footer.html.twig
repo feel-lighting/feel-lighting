@@ -1,0 +1,48 @@
+<footer class="footer">
+    <div class="row wide full-width">
+        <div class="small-12 medium-6 columns">
+            <h4>{{ 'views.navbar.plus'|trans }}</h4>
+            <ul class="footer-links">
+                <li>
+                    <a href="#">
+                        {{ 'views.navbar.contact'|trans }}
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ path('app_about') }}">
+                        {{ 'views.navbar.about'|trans }}
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ path('app_termsandconditions') }}">
+                        {{ 'views.navbar.cond'|trans }}
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ path('app_mention') }}">
+                        {{ 'views.navbar.legale'|trans }}
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="small-12 medium-6 columns barre">
+            <h4>{{ 'views.navbar.folowus'|trans }}</h4>
+            <a target="_blank" href="https://www.facebook.com/feel.lighting">
+                <span class="logo-small-vendor image-facebook-vendor"></span>
+            </a>
+            <a target="_blank" href="https://plus.google.com/118410855792298279829/">
+                <span class="logo-small-vendor image-google-vendor"></span>
+            </a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCwPp1ox5_YVXO1L1gdtRqbw">
+                <span class="logo-small-vendor image-youtube-vendor"></span>
+            </a>
+            <ul class="footer-links">
+                <li>
+                    <a href="{{ path('fos_user_security_login') }}">
+                        {{ 'views.navbar.clientspace'|trans }}
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>

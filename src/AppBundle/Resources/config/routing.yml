@@ -1,0 +1,11 @@
+app_about:
+    path:     /about/
+    defaults: { _controller: "AppBundle:App:about" }
+
+app_mention:
+    path:     /mention/
+    defaults: { _controller: "AppBundle:App:mention" }
+
+app_termsandconditions:
+    path:     /termsandconditions/
+    defaults: { _controller: "AppBundle:App:termsandconditions" }

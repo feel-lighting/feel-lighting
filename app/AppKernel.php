@@ -17,6 +17,8 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
 
+            new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
+
             new AppBundle\AppBundle(),
             new ZIMZIM\UserBundle\ZIMZIMUserBundle(),
             new ZIMZIM\CategoryProductBundle\ZIMZIMCategoryProductBundle(),
@@ -25,7 +27,10 @@ class AppKernel extends Kernel
             new APY\DataGridBundle\APYDataGridBundle(),
 
             new FOS\UserBundle\FOSUserBundle(),
-            new HWI\Bundle\OAuthBundle\HWIOAuthBundle()
+            new HWI\Bundle\OAuthBundle\HWIOAuthBundle(),
+
+            new JMS\I18nRoutingBundle\JMSI18nRoutingBundle(),
+            new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle()
 
         );
 

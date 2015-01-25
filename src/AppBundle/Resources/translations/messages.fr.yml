@@ -1,0 +1,8 @@
+views:
+    app:
+        about:
+            title: "Qui sommes nous ?"
+        mention:
+            title: "Mentions légales"
+        termsandconditions:
+            title: "Conditions générales de vente"

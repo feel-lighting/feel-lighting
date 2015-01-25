@@ -9,3 +9,7 @@ zimzim_categoryproduct_default:
 zimzim_tools:
     resource: "@ZIMZIMToolsBundle/Resources/config/routing.yml"
     prefix:   /
+
+app:
+    resource: "@AppBundle/Resources/config/routing.yml"
+    prefix:   /

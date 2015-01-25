@@ -147,17 +147,17 @@ span.logo-small-vendor {
 }
 
 .image-facebook-vendor {
-    background-image: url('../../bundles/zimzimbundlesuser/images/logo_vendor.png');
+    background-image: url('/bundles/app/images/logo_vendor.png');
     background-position: 0;
 }
 
 .image-google-vendor {
-    background-image: url('../../bundles/zimzimbundlesuser/images/logo_vendor.png');
+    background-image: url('/bundles/app/images/logo_vendor.png');
     background-position: 120px;
 }
 
 .image-youtube-vendor {
-    background-image: url('../../bundles/zimzimbundlesuser/images/logo_vendor.png');
+    background-image: url('/bundles/app/images/logo_vendor.png');
     background-position: 60px;
 }
 
@@ -238,7 +238,7 @@ span.country-flag {
     display: block;
     width: 37px;
     height: 25px;
-    background: url('../../bundles/zimzimbundlesuser/images/flags.png') 0 0 no-repeat;
+    background: url('/bundles/app/images/flags.png') 0 0 no-repeat;
 }
 
 .flag-fr {

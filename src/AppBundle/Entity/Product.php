@@ -13,7 +13,7 @@ use APY\DataGridBundle\Grid\Mapping as GRID;
  * @package ZIMZIM\CPBundle\Entity
  *
  * @ORM\Table(name="zimzizm_product")
- * @ORM\Entity(repositoryClass="ZIMZIM\CPBundle\Entity\ProductRepository")
+ * @ORM\Entity(repositoryClass="AppBundle\Entity\ProductRepository")
  * @ORM\HasLifecycleCallbacks
  */
 class Product extends baseProduct

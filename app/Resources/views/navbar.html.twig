@@ -1,0 +1,100 @@
+{% block navbar %}
+    <div class="sticky">
+        <nav role="navigation" data-topbar="" class="top-bar">
+            <ul class="title-area">
+                <li class="name">
+                    <a href="{{ path('zimzim_categoryproduct_itemhomepublic') }}">
+                        <img class="img-navbar" src="{{ asset('bundles/app/images/Feel-expert-francais-de-la-LED.png') }}" />
+                    </a>
+                    {#</span>#}
+                </li>
+                <li class="toggle-topbar menu-icon">
+                    <a href="#">
+                        <span>{{ 'views.navbar.menu'|trans }}</span>
+                    </a>
+                </li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="right">
+                    <li class="divider"></li>
+                    <li>
+                        <a class="" href="{{ path('zimzim_categoryproduct_category_listslugnull') }}">
+                            <span class="icon-medium icon-file vertical-middle"></span>
+                            {{ 'views.navbar.product'|trans }}
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a class="" href="#">
+                            <span class="icon-medium icon-address-book vertical-middle"></span>
+                            {{ 'views.navbar.contact'|trans }}
+                        </a>
+                    </li>
+                    {% if is_granted('ROLE_ADMIN') %}
+                        <li class="divider"></li>
+                        <li class="has-dropdown">
+                            <a href="#">
+                                <span class="icon-medium icon-flag vertical-middle"></span>
+                            </a>
+                            <ul class="dropdown">
+                                <li class="title back js-generated">
+                                    <a href="javascript:void(0)">
+                                        {{ 'views.navbar.back'|trans }}
+                                    </a>
+                                </li>
+                                {% for lang in enabledlangage %}
+                                    <li class="text-center">
+                                        <a class=""
+                                           href="{{ path('zimzim_categoryproduct_itemhomepublic', {'_locale': lang}) }}">
+                                            <span class="country-flag flag-{{ lang }}"></span>
+                                        </a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                        <li class="has-dropdown">
+                            <a href="#">
+                                <span class="icon-medium icon-cog vertical-middle"></span>
+                            </a>
+                            <ul class="dropdown">
+                                <li class="title back js-generated">
+                                    <a href="javascript:void(0)">
+                                        {{ 'views.navbar.back'|trans }}
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a class="" href="{{ path('zimzim_categoryproduct_category') }}">
+                                        <span class="icon-medium icon-file vertical-middle"></span>
+                                        {{ 'views.navbar.admincategory'|trans }}
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a class="" href="{{ path('zimzim_categoryproduct_product') }}">
+                                        <span class="icon-medium icon-address-book vertical-middle"></span>
+                                        {{ 'views.navbar.adminproduct'|trans }}
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a class="" href="{{ path('zimzim_categoryproduct_itemhome') }}">
+                                        <span class="icon-medium icon-earth vertical-middle"></span>
+                                        {{ 'views.navbar.adminitemhome'|trans }}
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a class="" href="{{ path('zimzim_toolsbundle_uploadtinymce') }}">
+                                        <span class="icon-medium icon-file vertical-middle"></span>
+                                        {{ 'views.navbar.adminuploadtinymce'|trans }}
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    {% endif %}
+                </ul>
+            </section>
+        </nav>
+    </div>
+{% endblock navbar %}
