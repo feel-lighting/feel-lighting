@@ -3,3 +3,8 @@ services:
         class: ZIMZIM\AppBundle\Form\Type\ProductType
         tags:
             - { name: form.type, alias: zimzim_appbundle_producttype }
+
+    appbundle.form.type.contacttype:
+        class: AppBundle\Form\Type\ContactType
+        tags:
+            - { name: form.type, alias: appbundle_contacttype }

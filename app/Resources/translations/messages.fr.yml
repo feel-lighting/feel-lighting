@@ -36,6 +36,18 @@ views:
         legale: "Mentions légales"
         folowus: "Suivez-nous sur :"
         clientspace: "Espace client"
+    app:
+        contact:
+            title: "Comment on procède ?"
+            title1: "On prend rendez-vous"
+            title2: "On se retrouve au bureau"
+            success: "Merci, nous revenons vers vous dans les plus bref délai"
+            contact: >
+                FEEL<br />
+                3 bis Rue de la Censé des Raisnes 59710 Ennevelin, France<br />
+                +33 3 20 96 05 59<br />
+                feel-lighting.fr<br />
+                Fabricant de luminaires<br />
     HWIOAuthBundle:
         connect:
             login:
@@ -67,3 +79,11 @@ views:
             feature: "Caractéristiques"
             listing: "Gamme"
             specification: "Spécifications électriques @ 25°C"
+contactform:
+    name: "Nom"
+    category: "Type de demande"
+    categorychoice:
+        contact: "Demande de renseignement"
+        support: "Support technique"
+    submit: "Valider"
+

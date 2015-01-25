@@ -9,3 +9,7 @@ app_mention:
 app_termsandconditions:
     path:     /termsandconditions/
     defaults: { _controller: "AppBundle:App:termsandconditions" }
+
+app_contact:
+    path:     /contact/
+    defaults: { _controller: "AppBundle:App:contact" }

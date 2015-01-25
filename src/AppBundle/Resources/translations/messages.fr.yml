@@ -6,3 +6,5 @@ views:
             title: "Mentions légales"
         termsandconditions:
             title: "Conditions générales de vente"
+        contact:
+            title: "Contactez-nous"
