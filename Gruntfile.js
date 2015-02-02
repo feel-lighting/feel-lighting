@@ -14,12 +14,12 @@ module.exports = function(grunt){
             dist: {
                 files: {
                     'app/Resources/public/js/min.js': [
-                        'app/Resources/public/js/jquery.min.js',
-                        'app/Resources/public/js/modernizr.js',
+                        'app/Resources/public/js/vendor/jquery.min.js',
+                        'app/Resources/public/js/vendor/modernizr.js',
                         'app/Resources/public/js/app.js',
-                        'app/Resources/public/js/foundation.min.js',
-                        'app/Resources/public/js/foundation.topbar.js',
-                        'app/Resources/public/js/owl.carousel.min.js',
+                        'app/Resources/public/js/vendor/foundation.min.js',
+                        'app/Resources/public/js/vendor/foundation.topbar.js',
+                        'app/Resources/public/js/vendor/owl.carousel.min.js',
                         'app/Resources/public/js/ga.js'
                     ]
                 }

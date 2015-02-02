@@ -1,11 +1,9 @@
 <?php
 
-namespace ZIMZIM\AppBundle\Form\Type;
+namespace AppBundle\Form\Type;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
-use Symfony\Component\OptionsResolver\OptionsResolverInterface;
-use ZIMZIM\CategoryProductBundle\Doctrine\ProductManager;
 
 class ProductType extends AbstractType
 {
