@@ -74,6 +74,22 @@ class AppController extends MainController
                 $em = $this->getDoctrine()->getManager();
                 $em->flush();
 
+                $data = $form->getData();
+
+
+
+                $message = \Swift_Message::newInstance()
+                    ->setSubject('Contact FEEL')
+                    ->setFrom('feellighting.fr@gmail.com')
+                    ->setTo('dregnier.feel@orange.fr')
+                    ->setBcc('zimzim62000@gmail.com')
+                    ->setBody(
+                        $this->renderView(
+                            'AppBundle:App:email.txt.twig', $data
+                        )
+                    );
+                $this->get('mailer')->send($message);
+
                 return $this->redirect(
                     $this->generateUrl('app_contact')
                 );
@@ -81,7 +97,8 @@ class AppController extends MainController
         }
 
         return $this->render(
-            'AppBundle:App:contact.html.twig', array('form' => $form->createView())
+            'AppBundle:App:contact.html.twig',
+            array('form' => $form->createView())
         );
     }
 

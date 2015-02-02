@@ -17,6 +17,7 @@ class ContactType extends AbstractType
     {
         $builder
             ->add('name', 'text', array('label' => 'contactform.name'))
+            ->add('email', 'email', array('label' => 'contactform.email'))
             ->add(
                 'category',
                 'choice',
@@ -29,7 +30,7 @@ class ContactType extends AbstractType
                     'label' => 'contactform.category'
                 )
             )
-            ->add('text', 'textarea')
+            ->add('text', 'textarea', array('label' => 'contactform.text'))
             ->add('submit', 'submit', array('label' => 'contactform.submit'));
     }
 

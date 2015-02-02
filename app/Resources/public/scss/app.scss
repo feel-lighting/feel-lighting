@@ -87,6 +87,11 @@ div.sticky {
         min-height: 100%;
         padding-bottom: $heightfootersmall;
     }
+
+    html, body {
+        font-size: 70% !important;
+    }
+
 }
 
 .footer {
@@ -533,5 +538,5 @@ div.owl-wrapper-outer {
 /***************************** contact ******************************/
 
 div.panel.contact{
-    min-height: 400px;
+    min-height: 500px;
 }

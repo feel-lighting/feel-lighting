@@ -38,9 +38,9 @@ views:
         clientspace: "Espace client"
     app:
         contact:
-            title: "Comment on procède ?"
-            title1: "On prend rendez-vous"
-            title2: "On se retrouve au bureau"
+            title: "Contact"
+            title1: "Formulaire"
+            title2: "Plan d'accès"
             success: "Merci, nous revenons vers vous dans les plus bref délai"
             contact: >
                 FEEL<br />
@@ -208,7 +208,10 @@ views:
                 pour les professionnels.
                 Aujourd’hui elle propose une large gamme de produits de Projecteurs LED, et Tubes LED. Tous plus
                 respectueux de l’environnement. En effet l’utilisation d’éclairage permet de diviser par trois la
-                production de CO2 et de diminuer considérablement sa consommation d’énergie.
+                production de CO2 et de diminuer considérablement sa consommation d’énergie.<br />
+                <strong>Créativité et Innovation</strong><br />
+                FEEL travaille actuellement au développement d’un détecteur crépusculaire, qui varie la lumière
+                émise en fonction de l’obscurité de l’environnement.
             subheading3: "Nos clients"
             paragraph3: >
                 La plus part des clients, sont des entreprises spécialisées dans l’électronique, comme JLP et MADEP.<br />
@@ -216,6 +219,11 @@ views:
                 panneaux électriques.<br />
                 RAGNI, plus gros clients de la société (25% du CA), est lui le leader en France de l’éclairage publique.
                 FEEL-SAS vient les fournir en câbles qui permettent d’alimenter leurs luminaires.
+            subheading4: "L'équipe d'expert au service de la LED - FEEL LIGHTING"
+            paragraph4: >
+                La société compte à ce jour 12 salariés se divisant entre atelier et bureaux. Feel compte dans son
+                effectif, un responsable SAV, un responsable administratif et financier, un Responsable Service
+                Méthode, des opérateurs CAO...
     HWIOAuthBundle:
         connect:
             login:
@@ -249,9 +257,11 @@ views:
             specification: "Spécifications électriques @ 25°C"
 contactform:
     name: "Nom"
+    email: "Email"
     category: "Type de demande"
     categorychoice:
         contact: "Demande de renseignement"
         support: "Support technique"
+    text: "Votre message"
     submit: "Valider"
 
