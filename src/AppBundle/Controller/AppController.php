@@ -70,22 +70,30 @@ class AppController extends MainController
 
             if ($form->isValid()) {
 
+                $user = $this->get('security.context')->getToken()->getUser();
+
                 $this->displaySuccess('views.app.contact.success');
                 $em = $this->getDoctrine()->getManager();
                 $em->flush();
 
-                $data = $form->getData();
-
-
+                $tmp = $form->getData();
+                $data = array(
+                    'username' => $user->getUsername(),
+                    'email' => $user->getEmail(),
+                    'text' => $tmp['text']
+                );
 
                 $message = \Swift_Message::newInstance()
                     ->setSubject('Contact FEEL')
                     ->setFrom('feellighting.fr@gmail.com')
+                    //->setFrom('zimzim62000@gmail.com')
                     ->setTo('dregnier.feel@orange.fr')
+                    //->setTo('zimzim62000@gmail.com')
                     ->setBcc('zimzim62000@gmail.com')
                     ->setBody(
                         $this->renderView(
-                            'AppBundle:App:email.txt.twig', $data
+                            'AppBundle:App:email.txt.twig',
+                            $data
                         )
                     );
                 $this->get('mailer')->send($message);

@@ -33,10 +33,20 @@
                 <input type="submit" id="_submit" name="_submit" class="small button"
                        value="{{ 'security.login.submit'|trans({}, 'FOSUserBundle') }}"/>
             </form>
+            {#
             <div class="row">
                 <div class="small-12 columns text-right">
                     <a href="{{ path('fos_user_resetting_request') }}">
                         {{ 'views.user.security.login.forget'|trans }}
+                    </a>
+                </div>
+            </div>
+            #}
+
+            <div class="row">
+                <div class="small-12 columns text-right">
+                    <a href="{{ path('fos_user_registration_register') }}">
+                        {{ 'views.user.registration.register.title'|trans }}
                     </a>
                 </div>
             </div>

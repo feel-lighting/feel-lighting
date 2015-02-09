@@ -42,6 +42,8 @@ views:
             title1: "Formulaire"
             title2: "Plan d'accès"
             success: "Merci, nous revenons vers vous dans les plus bref délai"
+            needlogin: "Merci de vous connectez"
+            login: "Connexion"
             contact: >
                 FEEL<br />
                 3 bis Rue de la Censé des Raisnes 59710 Ennevelin, France<br />
@@ -232,7 +234,7 @@ views:
             login:
                 title1: "Connexion"
                 title2: "Avec votre compte préféré !"
-                title3: "Ou "
+                title3: "Ou avec votre compte feel-lighting.fr"
                 login: "connexion"
                 register: "inscription"
     itemhome:
@@ -258,6 +260,9 @@ views:
             feature: "Caractéristiques"
             listing: "Gamme"
             specification: "Spécifications électriques @ 25°C"
+            pathpj: "Documentation technique"
+            showmore: "Vous voulez en savoir plus ?"
+            login: "Je m'inscrit"
 contactform:
     name: "Nom"
     email: "Email"

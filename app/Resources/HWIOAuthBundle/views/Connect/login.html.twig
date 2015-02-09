@@ -17,15 +17,17 @@
         <span>{{ error }}</span>
     {% endif %}
 
-    <div class="row">
+    <div class="row bgblue">
         {% for owner in hwi_oauth_resource_owners() %}
-            <div class="small-4 columns text-center">
-                <a href="{{ hwi_oauth_login_url(owner) }}" class="th">
-                    <span class="logo-small-tiers image-{{ owner }}"></span>
+            <div class="small-6 columns text-center ">
+                <a href="{{ hwi_oauth_login_url(owner) }}" class="">
+                    <span class="logo-small-vendor image-{{ owner }}-vendor"></span>
                 </a>
             </div>
         {% endfor %}
     </div>
+
+    <hr >
 
     <div class="row">
         <div class="small-12 large-12 columns">

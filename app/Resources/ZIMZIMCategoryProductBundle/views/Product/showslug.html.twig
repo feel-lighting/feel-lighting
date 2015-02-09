@@ -111,18 +111,37 @@
                     </h2>#}
                     {{ entity.feature|raw }}
                 </li>
-                <li class="productbox text-left">
-                    {#<h2>
-                        {{ 'views.product.showslug.listing'|trans }} - {{ entity.name }}
-                    </h2>#}
-                    {{ entity.listing|raw }}
-                </li>
-                <li class="productbox text-left">
-                    {#<h2>
-                        {{ 'views.product.showslug.specification'|trans }} - {{ entity.name }}
-                    </h2>#}
-                    {{ entity.specification|raw }}
-                </li>
+                {% if is_granted('ROLE_USER') %}
+                    <li class="productbox text-left">
+                        {#<h2>
+                            {{ 'views.product.showslug.listing'|trans }} - {{ entity.name }}
+                        </h2>#}
+                        {{ entity.listing|raw }}
+                    </li>
+                    <li class="productbox text-left">
+                        {#<h2>
+                            {{ 'views.product.showslug.specification'|trans }} - {{ entity.name }}
+                        </h2>#}
+                        {{ entity.specification|raw }}
+                    </li>
+                    {% if entity.webpathPj %}
+                        <li class="text-center">
+                            {#<h2>
+                                {{ 'views.product.showslug.specification'|trans }} - {{ entity.name }}
+                            </h2>#}
+                            <a target="_blank"  class="tiny button" href="/{{ entity.webpathPj }}">{{ 'views.product.showslug.pathpj'|trans }}</a>
+                        </li>
+                    {% endif %}
+                    {% else %}
+                        <li class="text-center">
+                            <h2>
+                                {{ 'views.product.showslug.showmore'|trans }}
+                            </h2>
+                            <a href="{{ path('hwi_oauth_connect') }}" class="tiny button">
+                                {{ 'views.product.showslug.login'|trans }}
+                            </a>
+                        </li>
+                {% endif %}
             </ul>
         </div>
     </div>

@@ -25,7 +25,7 @@ security:
                 resource_owners:
                     google: "/user/login/check-google"
                     facebook: "/user/login/check-facebook"
-                    twitter: "/user/login/check-twitter"
+#                    twitter: "/user/login/check-twitter"
                 login_path: /user/login/
                 failure_path: /user/login/
 

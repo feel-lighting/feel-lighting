@@ -4,7 +4,8 @@
             <ul class="title-area">
                 <li class="name">
                     <a href="{{ path('zimzim_categoryproduct_itemhomepublic') }}">
-                        <img class="img-navbar" src="{{ asset('bundles/app/images/Feel-expert-francais-de-la-LED.png') }}" />
+                        <img class="img-navbar"
+                             src="{{ asset('bundles/app/images/Feel-expert-francais-de-la-LED.png') }}"/>
                     </a>
                     {#</span>#}
                 </li>
@@ -90,6 +91,24 @@
                                         {{ 'views.navbar.adminuploadtinymce'|trans }}
                                     </a>
                                 </li>
+                            </ul>
+                        </li>
+                    {% endif %}
+                    {% if is_granted('ROLE_USER') %}
+                        <li class="has-dropdown not-click">
+                            <a href="#" class="text-center">
+                                <span class="icon-cog"></span>
+                                {{ app.user.username }}
+                            </a>
+                            <ul class="dropdown">
+                                <li class="divider"></li>
+                                <li class="">
+                                    <a href="{{ path('fos_user_security_logout') }}" class="">
+                                        <span class="icon-close"></span>
+                                        {{ 'views.navbar.logout'|trans }}
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
                             </ul>
                         </li>
                     {% endif %}
