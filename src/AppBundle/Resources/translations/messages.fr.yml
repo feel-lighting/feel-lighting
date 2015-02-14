@@ -8,3 +8,11 @@ views:
             title: "Conditions générales de vente"
         contact:
             title: "Contactez-nous"
+        galery:
+            title: "Galerie"
+        toolsconversion:
+            title: "Conversion"
+        toolsfaisceau:
+            title: "Faisceau lumineux"
+        toolsbilan:
+            title: "Bilan énergetique"

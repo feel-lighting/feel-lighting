@@ -1,0 +1,69 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}
+    {{ 'views.app.galery.title'|trans }}
+{% endblock title %}
+
+{% block page %}
+
+    <div class="row">
+        <div class="small-12 columns">
+            <h1 class="headertitle text-center">
+                {{ 'views.app.galery.title'|trans }}
+            </h1>
+        </div>
+    </div>
+
+
+    <div class="row full-width">
+        <div class="small-10 small-centered columns">
+            <div id="owl-demo" class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="itemhome" src="{{ asset('bundles/app/images/Hunocky-vert.png') }}"/>
+                    <h2 class="text-center title-itemhomebox nomargin">
+                        Hunocky vert
+                    </h2>
+                </div>
+                <div class="item">
+                    <img class="itemhome" src="{{ asset('bundles/app/images/La-Defense-candelabre-4temps.png') }}"/>
+                    <h2 class="text-center title-itemhomebox nomargin">
+                        La defense candelabre 4temps
+                    </h2>
+                </div>
+                <div class="item">
+                    <img class="itemhome" src="{{ asset('bundles/app/images/MAJE-Caisson.png') }}"/>
+                    <h2 class="text-center title-itemhomebox nomargin">
+                        MAJE caisson
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock page %}
+
+{% block javascripts %}
+
+    {{ parent() }}
+
+    <script>
+        $(document).ready(function () {
+
+            $("#owl-demo").owlCarousel({
+
+                autoPlay: 3000,
+                itemsCustom: [
+                    [0, 1],
+                    [700, 2],
+                    [1200, 3]
+                ],
+                'addClassActive': true,
+                navigation: false
+            });
+
+            window.Carousel = $(".owl-carousel").data('owlCarousel');
+
+        });
+
+    </script>
+{% endblock javascripts %}

@@ -2,6 +2,7 @@
 
 namespace AppBundle\Controller;
 
+use AppBundle\Entity\Contact;
 use ZIMZIM\ToolsBundle\Controller\MainController;
 use Symfony\Component\HttpFoundation\Request;
 
@@ -55,9 +56,11 @@ class AppController extends MainController
     public function contactAction(Request $request)
     {
 
+        $entity = new Contact();
+
         $form = $this->createForm(
             'appbundle_contacttype',
-            null,
+            $entity,
             array(
                 'action' => $this->generateUrl('app_contact'),
                 'method' => 'POST',
@@ -70,25 +73,21 @@ class AppController extends MainController
 
             if ($form->isValid()) {
 
-                $user = $this->get('security.context')->getToken()->getUser();
-
                 $this->displaySuccess('views.app.contact.success');
                 $em = $this->getDoctrine()->getManager();
+                $em->persist($entity);
                 $em->flush();
 
-                $tmp = $form->getData();
                 $data = array(
-                    'username' => $user->getUsername(),
-                    'email' => $user->getEmail(),
-                    'text' => $tmp['text']
+                    'username' => $entity->getName(),
+                    'email' => $entity->getEmail(),
+                    'text' => $entity->getText()
                 );
 
                 $message = \Swift_Message::newInstance()
                     ->setSubject('Contact FEEL')
                     ->setFrom('feellighting.fr@gmail.com')
-                    //->setFrom('zimzim62000@gmail.com')
                     ->setTo('dregnier.feel@orange.fr')
-                    //->setTo('zimzim62000@gmail.com')
                     ->setBcc('zimzim62000@gmail.com')
                     ->setBody(
                         $this->renderView(
@@ -107,6 +106,51 @@ class AppController extends MainController
         return $this->render(
             'AppBundle:App:contact.html.twig',
             array('form' => $form->createView())
+        );
+    }
+
+
+    /**
+     * Galerie Page
+     */
+    public function galeryAction()
+    {
+
+        return $this->render(
+            'AppBundle:App:galery.html.twig'
+        );
+    }
+
+    /**
+     * Tools Conversion Page
+     */
+    public function toolsConversionAction()
+    {
+
+        return $this->render(
+            'AppBundle:App:toolsconversion.html.twig'
+        );
+    }
+
+    /**
+     * Tools Faisceau Page
+     */
+    public function toolsFaisceauAction()
+    {
+
+        return $this->render(
+            'AppBundle:App:toolsfaisceau.html.twig'
+        );
+    }
+
+    /**
+     * Tools Bilan Page
+     */
+    public function toolsBilanAction()
+    {
+
+        return $this->render(
+            'AppBundle:App:toolsbilan.html.twig'
         );
     }
 

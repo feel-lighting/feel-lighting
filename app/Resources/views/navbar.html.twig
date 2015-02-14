@@ -26,11 +26,47 @@
                     </li>
                     <li class="divider"></li>
                     <li>
+                        <a class="" href="{{ path('app_galery') }}">
+                            <span class="icon-medium icon-camera vertical-middle"></span>
+                            {{ 'views.navbar.galery'|trans }}
+                        </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
                         <a class="" href="{{ path('app_contact') }}">
                             <span class="icon-medium icon-address-book vertical-middle"></span>
                             {{ 'views.navbar.contact'|trans }}
                         </a>
                     </li>
+                    <li class="divider"></li>
+                    <li class="has-dropdown">
+                        <a href="#">
+                            <span class="icon-cogs icon-medium"></span>
+                            {{ 'views.navbar.tools'|trans }}
+                        </a>
+                        <ul class="dropdown">
+                            <li>
+                                <a class="" href="{{ path('app_tools_conversion') }}">
+                                    {{ 'views.navbar.toolsconversion'|trans }}
+                                </a>
+                            </li>
+                            {#
+                            <li>
+                                <a class="" href="{{ path('app_tools_faisceau') }}">
+                                    <span class="icon-medium icon-file vertical-middle"></span>
+                                    {{ 'views.navbar.toolsfaisceau'|trans }}
+                                </a>
+                            </li>
+                            <li>
+                                <a class="" href="{{ path('app_tools_bilan') }}">
+                                    <span class="icon-medium icon-file vertical-middle"></span>
+                                    {{ 'views.navbar.toolsbilan'|trans }}
+                                </a>
+                            </li>
+                            #}
+                        </ul>
+                    </li>
+                    <li class="divider"></li>
                     {% if is_granted('ROLE_ADMIN') %}
                         <li class="divider"></li>
                         <li class="has-dropdown">
@@ -97,14 +133,14 @@
                     {% if is_granted('ROLE_USER') %}
                         <li class="has-dropdown not-click">
                             <a href="#" class="text-center">
-                                <span class="icon-cog"></span>
+                                <span class="icon-profile icon-medium "></span>
                                 {{ app.user.username }}
                             </a>
                             <ul class="dropdown">
                                 <li class="divider"></li>
                                 <li class="">
                                     <a href="{{ path('fos_user_security_logout') }}" class="">
-                                        <span class="icon-close"></span>
+                                        <span class="icon-close icon-medium "></span>
                                         {{ 'views.navbar.logout'|trans }}
                                     </a>
                                 </li>

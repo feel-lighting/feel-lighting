@@ -6,5 +6,6 @@ services:
 
     appbundle.form.type.contacttype:
         class: AppBundle\Form\Type\ContactType
+        arguments: [ @security.context ]
         tags:
             - { name: form.type, alias: appbundle_contacttype }

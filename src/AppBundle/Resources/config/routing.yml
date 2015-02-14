@@ -13,3 +13,19 @@ app_termsandconditions:
 app_contact:
     path:     /contact/
     defaults: { _controller: "AppBundle:App:contact" }
+
+app_galery:
+    path:     /galery/
+    defaults: { _controller: "AppBundle:App:galery" }
+
+app_tools_conversion:
+    path:     /tools/conversion/
+    defaults: { _controller: "AppBundle:App:toolsconversion" }
+
+app_tools_faisceau:
+    path:     /tools/faisceau/
+    defaults: { _controller: "AppBundle:App:toolsfaisceau" }
+
+app_tools_bilan:
+    path:     /tools/bilan/
+    defaults: { _controller: "AppBundle:App:toolsbilan" }

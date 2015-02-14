@@ -16,8 +16,8 @@
     <div class="row">
         <div class="small-10 small-centered columns">
             <ul class="small-block-grid-1">
-                <li class="homebox text-center">
-                    <h2>
+                <li class="homebox">
+                    <h2 class="text-center">
                         {{ 'views.app.about.subheading1'|trans }}
                     </h2>
 
@@ -33,8 +33,8 @@
                         {{ 'views.app.about.paragraph1-2'|trans|raw }}
                     </p>
                 </li>
-                <li class="homebox text-center">
-                    <h2>
+                <li class="homebox">
+                    <h2 class="text-center">
                         {{ 'views.app.about.subheading2'|trans }}
                     </h2>
 
@@ -42,23 +42,41 @@
                         {{ 'views.app.about.paragraph2-1'|trans|raw }}
                     </p>
 
-                    <p class="parahome nomargin">
-                        {{ 'views.app.about.paragraph2-2'|trans|raw }}
-                    </p>
-
                 </li>
-                <li class="homebox text-center">
-                    <h2>
-                        {{ 'views.app.about.subheading4'|trans }}
+                <li class="homebox">
+                    <h2 class="text-center">
+                        {{ 'views.app.about.subheading3'|trans }}
                     </h2>
+
+                    <p class="parahome nomargin">
+                        {{ 'views.app.about.paragraph3'|trans|raw }}
+                    </p>
 
                     <p>
                         <img class="" src="{{ asset('bundles/app/images/Equipe-Feel.png') }}" />
                     </p>
 
-                    <p class="parahome nomargin">
-                        {{ 'views.app.about.paragraph4'|trans|raw }}
-                    </p>
+                </li>
+                <li class="homebox">
+                    <h2 class="text-center">
+                        {{ 'views.app.about.subheading4'|trans }}
+                    </h2>
+
+                    <ul class="small-block-grid-2 medium-block-grid-4 text-center">
+                        <li>
+                            <a href="#"  target="_blank">Eclairage 3000</a>
+                        </li>
+                        <li>
+                            <a href="#"  target="_blank">Prestocab France</a>
+                        </li>
+                        <li>
+                            <a href="http://www.plastisem.fr" target="_blank">Plastisem</a>
+                        </li>
+                        <li>
+                            <a href="http://moulageplastiquefrancais.com"  target="_blank">MPF</a>
+                        </li>
+                    </ul>
+
                 </li>
             </ul>
         </div>

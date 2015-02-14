@@ -1,0 +1,243 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}
+    {{ 'views.app.toolsconversion.title'|trans }}
+{% endblock title %}
+
+{% block page %}
+
+    <div class="row">
+        <div class="small-12 columns">
+            <h1 class="headertitle text-center">
+                {{ 'views.app.toolsconversion.title'|trans }}
+            </h1>
+        </div>
+    </div>
+
+
+    <div class="row">
+
+
+        <div class="medium-6 columns panel">
+            <h2 class="text-center">
+                Lumen / Lux
+            </h2>
+
+            <div class="row collapse">
+                <label>Lux</label>
+                <div class="medium-9 columns">
+                    <input type="text" class="text" id="lux_lum_illuminance">
+                </div>
+                <div class="medium-3 columns">
+                    <span class="postfix">lx</span>
+                </div>
+            </div>
+
+            <div class="row collapse">
+                <label>Distance</label>
+                <div class="medium-9 columns">
+                    <input type="text" class="text" id="lux_lum_distance">
+                </div>
+                <div class="medium-3 columns">
+                    <span class="postfix">m</span>
+                </div>
+            </div>
+
+            <div class="row collapse">
+                <label>Angle</label>
+                <div class="medium-9 columns">
+                    <input type="text" class="text" id="lux_lum_angle">
+                </div>
+                <div class="medium-3 columns">
+                    <span class="postfix">°</span>
+                </div>
+            </div>
+
+            <div class="row collapse">
+                <label>Lumen</label>
+                <div class="medium-9 columns">
+                    <input type="text" class="text" id="lux_lum_flux">
+                </div>
+                <div class="medium-3 columns">
+                    <span class="postfix">lm</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="medium-6 columns text-center">
+                    <button onclick="calc_Illuminance_Flux()" class="large_pad">
+                    lx -> lm
+                    </button>
+                </div>
+                <div class="medium-6 columns text-center">
+                    <button onclick="calc_Flux_Illuminance()" class="large_pad">
+                    lm -> lx
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="medium-6 columns panel">
+            <h2 class="text-center">
+                Lux / Candéla
+            </h2>
+
+            <div class="row collapse">
+                <label>Lux</label>
+                <div class="medium-9 columns">
+                    <input type="text" class="text" id="lux_candela_illuminance">
+                </div>
+                <div class="medium-3 columns">
+                    <span class="postfix">lx</span>
+                </div>
+            </div>
+
+            <div class="row collapse">
+                <label>Distance</label>
+                <div class="medium-9 columns">
+                    <input type="text" class="text" id="lux_candela_distance">
+                </div>
+                <div class="medium-3 columns">
+                    <span class="postfix">m</span>
+                </div>
+            </div>
+
+            <div class="row collapse">
+                <label>Angle</label>
+                <div class="medium-9 columns">
+                    <input type="text" class="text" id="lux_candela_angle">
+                </div>
+                <div class="medium-3 columns">
+                    <span class="postfix">°</span>
+                </div>
+            </div>
+
+            <div class="row collapse">
+                <label>Température</label>
+                <div class="medium-9 columns">
+                    <input type="text" class="text" id="lux_candela_intensity">
+                </div>
+                <div class="medium-3 columns">
+                    <span class="postfix">mcd</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="medium-6 columns text-center">
+                    <button onclick="calc_Illuminance_Intensity()" class="large_pad">
+                    lx -> mcd
+                    </button>
+                </div>
+                <div class="medium-6 columns text-center">
+                    <button onclick="calc_Intensity_Illuminance()" class="large_pad">
+                    mcd -> lx
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+<div class="medium-6 columns panel">
+            <h2 class="text-center">
+                Chromacité / Température
+            </h2>
+
+            <div class="row collapse">
+                <label>Coord X</label>
+                <div class="medium-9 columns">
+                    <input type="text" class="text" id="coordx">
+                </div>
+                <div class="medium-3 columns">
+                    <span class="postfix"></span>
+                </div>
+            </div>
+
+            <div class="row collapse">
+                <label>Coord Y</label>
+                <div class="medium-9 columns">
+                    <input type="text" class="text" id="coordy">
+                </div>
+                <div class="medium-3 columns">
+                    <span class="postfix"></span>
+                </div>
+            </div>
+
+            <div class="row collapse">
+                <label>Température</label>
+                <div class="medium-9 columns">
+                    <input type="text" disabled="disabled" class="text" id="temp">
+                </div>
+                <div class="medium-3 columns">
+                    <span class="postfix">K</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="medium-12 columns text-center">
+                    <button onclick="calc_temp()" class="large_pad">
+                    crd -> Tmp
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="medium-6 columns panel">
+            <h2 class="text-center">
+                Lumen / Candéla
+            </h2>
+
+            <div class="row collapse">
+                <label>Lumen</label>
+                <div class="medium-9 columns">
+                    <input type="text" class="text" id="lum_candela_flux">
+                </div>
+                <div class="medium-3 columns">
+                    <span class="postfix">lx</span>
+                </div>
+            </div>
+
+            <div class="row collapse">
+                <label>Angle</label>
+                <div class="medium-9 columns">
+                    <input type="text" class="text" id="lum_candela_angle">
+                </div>
+                <div class="medium-3 columns">
+                    <span class="postfix">m</span>
+                </div>
+            </div>
+
+            <div class="row collapse">
+                <label>Température</label>
+                <div class="medium-9 columns">
+                    <input type="text" disabled="disabled" class="text" id="lum_candela_intensity">
+                </div>
+                <div class="medium-3 columns">
+                    <span class="postfix">°</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="medium-6 columns text-center">
+                    <button onclick="calc_Flux_Intensity()" class="large_pad">
+                    lm -> mcd
+                    </button>
+                </div>
+                <div class="medium-6 columns text-center">
+                    <button onclick="calc_Intensity_Flux()" class="large_pad">
+                    mcd -> lm
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+{% endblock page %}
+
+{% block javascripts %}
+
+    {{ parent() }}
+
+{% endblock javascripts %}

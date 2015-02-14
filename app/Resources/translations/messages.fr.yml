@@ -36,13 +36,18 @@ views:
         legale: "Mentions légales"
         folowus: "Suivez-nous sur :"
         clientspace: "Espace client"
+        galery: "Galerie"
+        tools: "Utilitaire"
+        toolsconversion: "Conversion"
+        toolsfaisceau: "Faisceau lumineux"
+        toolsbilan: "Bilan énergetique"
     app:
         contact:
             title: "Contact"
             title1: "Formulaire"
             title2: "Plan d'accès"
             success: "Merci, nous revenons vers vous dans les plus bref délai"
-            needlogin: "Merci de vous connectez"
+            needlogin: "Merci de vous connecter"
             login: "Connexion"
             contact: >
                 FEEL<br />
@@ -182,61 +187,58 @@ views:
                 exclusive du tribunal de commerce de Lille.
         about:
             title: "Qui sommes nous ?"
-            subheading1: "Présentation"
+            subheading1: "Historique"
             paragraph1-1: >
-                La société FEEL, anciennement FEEL-LIBRA a été créé le 1er Avril 2002 par Mr Alexandre RICHARD, à
-                ENNEVELIN dans le NORD (59).<br />Le statut de la société à l’époque était une S.A.R.L (Société Anonyme
-                à Responsabilité Limitée), et comportait deux activités très distinctes à savoir, fabrication de balance
-                Roberval (suite à reprise de l’outil TESTUT) et une activité de sous-traitance en câblage filaire et
-                fabrication de petites cartes électroniques.<br />
-                En Septembre 2004, FEEL-LIBRA effectue sa première
-                implication en électronique complexe avec la réalisation du « Cercle de Buren » pour Lille 2004 du
-                nom de l’architecte.<br />
+                <strong>1er avril 2002</strong><br />
+                Création de la société FEEL LIBRA (S.A.R.L.) par M. Alexandre RICHARD.<br/>
+                Deux activités distinctes cohabitent :<br/>
+                - La fabrication de balance Roberval (suite à la reprise de l’outil TESTUT)<br/>
+                - La sous-traitance de faisceaux & fabrication de cartes électroniques<br/><br/>
+                <strong>Septembre 2004</strong><br />
+                Première réalisation significative avec la réalisation du « Cercle de Buren » pour Lille 2004, du nom de l’architecte.<br />
             paragraph1-2: >
-                En Août 2005, la société cède son activité Balance à la Société SWIEBEL, leader Européen de la
-                fabrication de poids et d’étalons. Elle déménage à ATTICHES pour disposer de locaux plus appropriés.
-                FEEL-LIBRA devient FEEL.<br />En Décembre 2007, FEEL exécute sa première réalisation électronique à
-                base de LED de puissance pour des projecteurs de scène.<br />En Mai 2009, nouveau déménagement dans
-                les locaux actuels toujours en vue de disposer de la surface et de bureaux plus appropriés pour
-                l’ensemble du personnel.<br />A compter de juillet 2009, création d’une gamme de dispositifs d’éclairage
-                « FEEL » made in France – Création d’un département ReeFeel Dédié à l’éclairage récifal et
-                accessoires pour aquariums.<br />Depuis septembre 2009 multiplication des développements grâce au
-                recrutement de personnels qualifiés installés comme auto entrepreneur ou travaillant en temps
-                partagé et / ou embauche d’ouvriers qualifiés.<br />
-                En Août 2011, la société FEEL passe en SAS (société par action simplifiée) avec 64 000€ au capital
-                social.<br />En janvier 2013, FEEL augmente à nouveau son capital social par incorporation de réserve
-                pour atteindre 112 710€
+                <strong>Décembre 2007</strong><br />
+                Conception du premier projecteur à LED de scène (PAR36).<br />
+                <strong>Mai 2009</strong><br />
+                Arrivée dans ses locaux.<br />
+                <strong>Juillet 2009</strong><br />
+                Création d’une gamme de dispositifs d’éclairage « Feel » fabriqués en France et d’un département ReeFeel dédié à l’éclairage récifal pour aquariums.<br />
+                <strong>Août 2011</strong><br />
+                La société Feel évolue et change son statut en SAS (société par action simplifiée).<br />
+                <strong>Janvier 2013</strong><br />
+                Augmentation du capital social par incorporation de réserve pour atteindre 112 710€.<br />
+                Création des premières applications des éclairages à LED secteur (DDR).<br />
+                <strong>Janvier 2015</strong><br />
+                Déploiement de l’effectif du bureau d’études.<br />
             subheading2: "Nos produits"
             paragraph2-1: >
-                Depuis 2009, la société FEEL, s’est spécialisé dans l’éclairage à base de LED, et solutions de câblages
-                pour les professionnels.
-                Aujourd’hui elle propose une large gamme de produits de Projecteurs LED, et Tubes LED. Tous plus
-                respectueux de l’environnement. En effet l’utilisation d’éclairage permet de diviser par trois la
-                production de CO2 et de diminuer considérablement sa consommation d’énergie.<br />
-            paragraph2-2: >
-                <strong>Créativité et Innovation</strong><br />
-                FEEL travaille actuellement au développement d’un détecteur crépusculaire, qui varie la lumière
-                émise en fonction de l’obscurité de l’environnement.
-            subheading3: "Nos clients"
+                Depuis 2009, la société Feel s’est spécialisée dans <strong>l’étude et la fabrication de dispositifs d’éclairage à LED</strong>et se distingue par sa capacité d’innovation et sa réactivité.<br />
+                Forte de 6 années d’expérience dans l’utilisation de LED de puissance, elle maîtrise les technologies associées, à savoir le management thermique, l’optique et bien entendu les platines à LED pilotées par des alimentations également conçues en interne.<br />
+                Aujourd’hui Feel propose une large gamme de produits : <strong>projecteurs, tubes, dalles, réglettes à LED</strong>, etc., tous plus respectueux de l’environnement. L’utilisation d’éclairage permet en effet de diviser par trois la production de CO2 et de diminuer considérablement sa consommation d’énergie.<br />
+                Feel est également très souvent sollicitée pour aménager des produits existants ou développer des produits spécifiques sur cahier des charges clients.<br />
+                L’association de solutions solaires, éolienne, domotique, communication RF nous permet de répondre aux exigences techniques des clients aux conditions économiques définies à l’origine du projet.<br />
+                L’étude et la réalisation de nos produits fabriqués en France sont réalisées selon des critères de qualité internes similaires à la norme ISO 9001 v2000.<br />
+            subheading3: "L'équipe d'expert au service de la LED - FEEL LIGHTING"
             paragraph3: >
-                La plus part des clients, sont des entreprises spécialisées dans l’électronique, comme JLP et MADEP.<br />
-                <a target="_blank" href="http://www.centaure-systems.fr" >Centaure Systems</a>, plus gros clients de la région, lui est spécialisé dans la communication à partir de
-                panneaux électriques.<br />
-                RAGNI, plus gros clients de la société (25% du CA), est lui le leader en France de l’éclairage publique.
-                FEEL-SAS vient les fournir en câbles qui permettent d’alimenter leurs luminaires.
-            subheading4: "L'équipe d'expert au service de la LED - FEEL LIGHTING"
-            paragraph4: >
-                La société compte à ce jour 12 salariés se divisant entre atelier et bureaux. Feel compte dans son
-                effectif, un responsable SAV, un responsable administratif et financier, un Responsable Service
-                Méthode, des opérateurs CAO...
+                Direction commerciale : M. Alexandre Richard – arichard.feel@orange.fr<br />
+                Administration : M. Julien Finez – jfinez.feel@orange.fr<br />
+                Industrialisation : M. Régis Marquette – rmarquette.feel@orange.fr<br />
+                Bureau d’études : M. Augustin Ségard – asegard.feel@orange.fr<br />
+                Service qualité : contact.feel@orange.fr<br />
+                Ainsi que des techniciens qualifiés.
+            subheading4: "Nos partenaires"
+        galery:
+            title: "Galerie"
+        toolsconversion:
+            title: "Conversion"
     HWIOAuthBundle:
         connect:
             login:
                 title1: "Connexion"
                 title2: "Avec votre compte préféré !"
                 title3: "Ou avec votre compte feel-lighting.fr"
-                login: "connexion"
-                register: "inscription"
+                login: "Connexion"
+                register: "Inscription"
     itemhome:
         index:
             title: "Feel, l’expert français de la LED"
@@ -262,7 +264,7 @@ views:
             specification: "Spécifications électriques @ 25°C"
             pathpj: "Documentation technique"
             showmore: "Vous voulez en savoir plus ?"
-            login: "Je m'inscrit"
+            login: "Je m'inscris"
 contactform:
     name: "Nom"
     email: "Email"
