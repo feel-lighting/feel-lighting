@@ -26,7 +26,7 @@ views:
         product: "Nos produits"
         category: "Category"
         adminproduct: "Produits"
-        admincategory: "Categories"
+        admincategory: "Catégories"
         adminitemhome: "Carrousel"
         adminuploadtinymce: "Upload"
         plus: "En savoir plus"
@@ -40,13 +40,13 @@ views:
         tools: "Utilitaire"
         toolsconversion: "Conversion"
         toolsfaisceau: "Faisceau lumineux"
-        toolsbilan: "Bilan énergetique"
+        toolsbilan: "Bilan énergétique"
     app:
         contact:
             title: "Contact"
             title1: "Formulaire"
             title2: "Plan d'accès"
-            success: "Merci, nous revenons vers vous dans les plus bref délai"
+            success: "Merci, nous allons revenir vers vous dans les plus brefs délais"
             needlogin: "Merci de vous connecter"
             login: "Connexion"
             contact: >
@@ -57,7 +57,7 @@ views:
                 Fabricant de luminaires<br />
         mention:
             title: "Mentions légales"
-            subheading1: "Feel l'expert du lighting"
+            subheading1: "Feel, l’expert français de la LED"
             paragraph1: >
                 En accédant et en utilisant le site de la société Feel Lighting, maintenant et à n’importe quel moment dans le futur,
                 vous acceptez les conditions suivantes :<br />bien que nous ayons pris soin d’assurer l’exactitude des informations qui se trouvent sur le site de la société Feel Lighting,
@@ -187,7 +187,6 @@ views:
                 exclusive du tribunal de commerce de Lille.
         about:
             title: "Qui sommes nous ?"
-            Delphine: "100, Quai du Sartel 59100 Roubaix"
             subheading1: "Historique"
             paragraph1-1: >
                 <strong>1er avril 2002</strong><br />
@@ -213,13 +212,13 @@ views:
                 Déploiement de l’effectif du bureau d’études.<br />
             subheading2: "Nos produits"
             paragraph2-1: >
-                Depuis 2009, la société Feel s’est spécialisée dans <strong>l’étude et la fabrication de dispositifs d’éclairage à LED</strong>et se distingue par sa capacité d’innovation et sa réactivité.<br />
+                Depuis 2009, la société Feel s’est spécialisée dans <strong>l’étude et la fabrication de dispositifs d’éclairage à LED</strong> et se distingue par sa capacité d’innovation et sa réactivité.<br />
                 Forte de 6 années d’expérience dans l’utilisation de LED de puissance, elle maîtrise les technologies associées, à savoir le management thermique, l’optique et bien entendu les platines à LED pilotées par des alimentations également conçues en interne.<br />
                 Aujourd’hui Feel propose une large gamme de produits : <strong>projecteurs, tubes, dalles, réglettes à LED</strong>, etc., tous plus respectueux de l’environnement. L’utilisation d’éclairage permet en effet de diviser par trois la production de CO2 et de diminuer considérablement sa consommation d’énergie.<br />
                 Feel est également très souvent sollicitée pour aménager des produits existants ou développer des produits spécifiques sur cahier des charges clients.<br />
                 L’association de solutions solaires, éolienne, domotique, communication RF nous permet de répondre aux exigences techniques des clients aux conditions économiques définies à l’origine du projet.<br />
                 L’étude et la réalisation de nos produits fabriqués en France sont réalisées selon des critères de qualité internes similaires à la norme ISO 9001 v2000.<br />
-            subheading3: "L'équipe d'expert au service de la LED - FEEL LIGHTING"
+            subheading3: "L'équipe FEEL LIGHTING"
             paragraph3: >
                 Direction commerciale : M. Alexandre Richard – arichard.feel@orange.fr<br />
                 Administration : M. Julien Finez – jfinez.feel@orange.fr<br />
@@ -247,15 +246,15 @@ views:
             hometitle1: "Société lilloise créée en 2002"
             homepara1: "Spécialisée dans l’étude et la fabrication de dispositifs d’éclairage à LED, FEEL se distingue par sa capacité d’innovation et sa réactivité"
             hometitle2: "Maîtrise des technologies"
-            homepara2: "Le management thermique, l’optique et bien entendu les platines à LED pilotées par des alimentations également conçus en interne."
-            hometitle3: "Feel c'est aussi ..."
+            homepara2: "Le management thermique, l’optique et bien entendu les platines à LED pilotées par des alimentations également conçues en interne."
+            hometitle3: "Feel c'est aussi..."
             homepara3: " L’association de solutions solaires, éolienne, détection de présence, communication RF. Cela nous permet de répondre aux exigences techniques des clients aux conditions économiques définies à l’origine du projet."
             hometitle4: "Fabrication française"
-            homepara4: "Notre process fabrication est intégralement réalisées en France afin de garantir une qualité irréprochable. Toutes nos conceptions sont réalisées rigoureusement selon les normes applicables."
+            homepara4: "Notre process fabrication est intégralement réalisé en France afin de garantir une qualité irréprochable. Toutes nos conceptions sont réalisées rigoureusement selon les normes applicables."
             titleeco: "Feel -  Les LED - L'écologie"
             paraeco:  >
                 FEEL est le spécialiste dans l’éclairage à base de LED, et solutions de câblages pour les professionnels.<br />
-                Feel c'est une large gamme de produits de Projecteurs LED, et Tubes LED. Tous plus respectueux de l’environnement.
+                Feel c'est une large gamme de produits de projecteurs LED, et tubes LED. Tous plus respectueux de l’environnement.
                 En effet l’utilisation d’éclairage permet de diviser par trois la production de CO2 et de diminuer considérablement sa consommation d’énergie.<br />
         connectadmin: "feel-connect"
     product:
@@ -271,7 +270,7 @@ contactform:
     email: "Email"
     category: "Type de demande"
     categorychoice:
-        contact: "Demande de renseignement"
+        contact: "Demande de renseignements"
         support: "Support technique"
     text: "Votre message"
     submit: "Valider"
