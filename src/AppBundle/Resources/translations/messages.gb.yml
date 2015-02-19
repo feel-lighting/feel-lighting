@@ -1,0 +1,18 @@
+views:
+    app:
+        about:
+            title: "About us"
+        mention:
+            title: "Legal information"
+        termsandconditions:
+            title: "Terms and conditions"
+        contact:
+            title: "Contact us"
+        galery:
+            title: "Gallery"
+        toolsconversion:
+            title: "Conversion"
+        toolsfaisceau:
+            title: "Light beam"
+        toolsbilan:
+            title: "Energy assessment"
