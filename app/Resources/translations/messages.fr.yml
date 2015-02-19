@@ -227,17 +227,17 @@ views:
                 Service qualité : contact.feel@orange.fr<br />
                 Ainsi que des techniciens qualifiés.
             subheading4: "Nos partenaires"
-galery:
-    title: "Galerie"
-    item1: "Unoky"
-    item2: "La Défense - Candélabre 4 temps"
-    item3: "MAJE - Caisson"
-    item4: "AIER-EASY"
-    item5: "Colonne-RGB"
-    item6: "IR000071"
-    item7: "Lustre-3PAR56"
-    item8: "Oeuf"
-    item9 : "Tequila-Tezon"
+        galery:
+            title: "Galerie"
+            item1: "Unoky"
+            item2: "La Défense - Candélabre 4 temps"
+            item3: "MAJE - Caisson"
+            item4: "AIER-EASY"
+            item5: "Colonne-RGB"
+            item6: "IR000071"
+            item7: "Lustre-3PAR56"
+            item8: "Oeuf"
+            item9 : "Tequila-Tezon"
         toolsconversion:
             title: "Conversion"
     HWIOAuthBundle:
