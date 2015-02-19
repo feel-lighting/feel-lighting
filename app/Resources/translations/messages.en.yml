@@ -29,7 +29,7 @@ views:
         admincategory: "Categories"
         adminitemhome: "Carousel"
         adminuploadtinymce: "Upload"
-        plus: "To know more about it"
+        plus: "Do you want to know more about us?"
         cond: "Terms and conditions"
         about: "About us"
         contact: "Contact us"
@@ -59,16 +59,10 @@ views:
             title: "Legal information"
             subheading1: "Feel, the French specialist of LED"
             paragraph1: >
-                En accédant et en utilisant le site de la société Feel Lighting, maintenant et à n’importe quel moment dans le futur,
-                vous acceptez les conditions suivantes :<br />bien que nous ayons pris soin d’assurer l’exactitude des informations qui se trouvent sur le site de la société Feel Lighting,
-                l’information sur ce site est fournie sans représentation ou garantie.<br />En aucun cas la société Feel Lighting ne sera responsable à propos de l’utilisation des informations disponibles,
-                sauf indication contraire.<br />La société Feel Lighting ne garantit pas que les sites ou les serveurs qui mettent à disposition ce site sont dépourvus de tout virus ou de tout autre élément
-                nuisible. La société Feel Lighting se réserve le droit de modifier ou de mettre à jour les informations mises à votre disposition sur le site à n’importe quel moment sans avis préalable.<br />
-                Les informations fournies sur le site peuvent uniquement être utilisées, copiées ou distribuées sans être modifiées dans un but d’information personnel et doivent stipuler la mention copyright
-                Feel Lighting. Le copyright du site et de son contenu demeure la propriété de la société Feel Lighting. Tous droits de reproduction réservés.
+                By accessing and using the website of Feel company, now and at any time in the future, you agree to the following conditions: Although we have taken great care to ensure the accuracy of the information found on Feel company website, the information on this website is provided without representation or warranty. In no event shall the Feel company be liable about the use of available information, unless otherwise indicated. Feel company does not guarantee that the websites or the servers that make available this website are free of viruses or other harmful components. Feel company reserves the right to modify or update the information made available on the website at any time without notice. The information provided on the website can only be used, copied or distributed without modification for the purpose of personal information and copyright must stipulate "Feel Lighting" mention. The copyright of the website and its content is the property of the Feel company. All rights reserved.
         termsandconditions:
             title: "Terms and conditions"
-            subheading1: "Generalities"
+            subheading1: "GENERALITIES"
             paragraph1: >
                 Le contrat est soumis à la loi française.<br />
                 L’acceptation de notre offre implique votre adhésion totale aux
@@ -186,31 +180,31 @@ views:
                 présentes conditions générales de vente seront de la compétence
                 exclusive du tribunal de commerce de Lille.
         about:
-            title: "Qui sommes nous ?"
-            subheading1: "Historique"
+            title: "About us"
+            subheading1: "Historical"
             paragraph1-1: >
-                <strong>1er avril 2002</strong><br />
-                Création de la société FEEL LIBRA (S.A.R.L.) par M. Alexandre RICHARD.<br/>
-                Deux activités distinctes cohabitent :<br/>
-                - La fabrication de balance Roberval (suite à la reprise de l’outil TESTUT)<br/>
-                - La sous-traitance de faisceaux & fabrication de cartes électroniques<br/><br/>
-                <strong>Septembre 2004</strong><br />
-                Première réalisation significative avec la réalisation du « Cercle de Buren » pour Lille 2004, du nom de l’architecte.<br />
+                <strong>April 1, 2002</strong><br />
+                Creation of the company FEEL LIBRA (SARL) by Alexandre RICHARD.<br/>
+                Two distinct activities coexist:<br/>
+                - Roberval balance Manufacturing (following the resumption of TESTUT Tool)<br/>
+                - Outsourcing beams & manufacture of electronic cards<br/><br/>
+                <strong>September 2004 </ strong><br />
+                First significant achievement with the completion of the "Circle of Buren 'for Lille 2004, the architect's name.<br />
             paragraph1-2: >
-                <strong>Décembre 2007</strong><br />
-                Conception du premier projecteur à LED de scène (PAR36).<br /><br />
-                <strong>Mai 2009</strong><br />
-                Arrivée dans ses locaux.<br /><br />
-                <strong>Juillet 2009</strong><br />
-                Création d’une gamme de dispositifs d’éclairage « Feel » fabriqués en France et d’un département ReeFeel dédié à l’éclairage récifal pour aquariums.<br /><br />
-                <strong>Août 2011</strong><br />
-                La société Feel évolue et change son statut en SAS (société par action simplifiée).<br /><br />
-                <strong>Janvier 2013</strong><br />
-                Augmentation du capital social par incorporation de réserve pour atteindre 112 710€.<br />
-                Création des premières applications des éclairages à LED secteur (DDR).<br /><br />
-                <strong>Janvier 2015</strong><br />
-                Déploiement de l’effectif du bureau d’études.<br />
-            subheading2: "Nos produits"
+                <strong>December 2007</strong><br />
+                Design of the first stage LED projector (PAR36).<br /><br />
+                <strong>May 2009</strong><br />
+                Arrival on its premises.<br /><br />
+                <strong>July 2009</strong><br />
+                Creation of a "Feel" range of lighting made in France and a ReeFeel department dedicated to lighting for reef aquariums.<br /><br />
+                <strong>August 2011</strong><br />
+                Feel company evolves and changes its status SAS (simplified joint stock company).<br /><br />
+                <strong>January 2013</strong><br />
+                Increase the share capital by incorporation of reserves to reach € 112,710.<br />
+                Creation of the first applications of LED lighting industry (DDR).<br /><br />
+                <strong>January 2015</strong><br />
+                Deployment the effective of the design office.<br />
+            subheading2: "Our products"
             paragraph2-1: >
                 Depuis 2009, la société Feel s’est spécialisée dans <strong>l’étude et la fabrication de dispositifs d’éclairage à LED</strong> et se distingue par sa capacité d’innovation et sa réactivité.<br />
                 Forte de 6 années d’expérience dans l’utilisation de LED de puissance, elle maîtrise les technologies associées, à savoir le management thermique, l’optique et bien entendu les platines à LED pilotées par des alimentations également conçues en interne.<br />
@@ -218,69 +212,69 @@ views:
                 Feel est également très souvent sollicitée pour aménager des produits existants ou développer des produits spécifiques sur cahier des charges clients.<br />
                 L’association de solutions solaires, éolienne, domotique, communication RF nous permet de répondre aux exigences techniques des clients aux conditions économiques définies à l’origine du projet.<br />
                 L’étude et la réalisation de nos produits fabriqués en France sont réalisées selon des critères de qualité internes similaires à la norme ISO 9001 v2000.<br />
-            subheading3: "L'équipe Feel Lighting"
+            subheading3: "The team"
             paragraph3: >
-                Direction commerciale : M. Alexandre Richard – arichard.feel@orange.fr<br />
-                Administration : M. Julien Finez – jfinez.feel@orange.fr<br />
-                Industrialisation : M. Régis Marquette – rmarquette.feel@orange.fr<br />
-                Bureau d’études : M. Augustin Ségard – asegard.feel@orange.fr<br />
-                Service qualité : contact.feel@orange.fr<br />
-                Ainsi que des techniciens qualifiés.
-            subheading4: "Nos partenaires"
+                Sales management : Mr Alexandre Richard – arichard.feel@orange.fr<br />
+                Administration : Mr Julien Finez – jfinez.feel@orange.fr<br />
+                Industrialization : Mr Régis Marquette – rmarquette.feel@orange.fr<br />
+                Engineering office : Mr Augustin Ségard – asegard.feel@orange.fr<br />
+                Quality department : contact.feel@orange.fr<br />
+                And qualified technicians.
+            subheading4: "Our partners"
         galery:
-            title: "Galerie"
-            item1: "Unoky"
-            item2: "La Défense - Candélabre 4 temps"
+            title: "Gallery"
+            item1: "Hunoky"
+            item2: "La Défense - Candelabra 4 times"
             item3: "MAJE - Caisson"
-            item4: "AIER-EASY"
-            item5: "Colonne-RGB"
-            item6: "IR000071"
-            item7: "Lustre-3PAR56"
-            item8: "Oeuf"
-            item9 : "Tequila-Tezon"
+            item4: "AIER - POS"
+            item5: "Column - RGB"
+            item6: "Thermal picture"
+            item7: "Gantry - 3 x 56"
+            item8: "Galeries Lafayette - Egg"
+            item9 : "TEZON - Tequila"
         toolsconversion:
             title: "Conversion"
     HWIOAuthBundle:
         connect:
             login:
-                title1: "Connexion"
-                title2: "Avec votre compte préféré !"
-                title3: "Ou avec votre compte feel-lighting.fr"
-                login: "Connexion"
-                register: "Inscription"
+                title1: "Login"
+                title2: "With your account:"
+                title3: "Or with your feel-lighting.fr account"
+                login: "Login"
+                register: "Registration"
     itemhome:
         index:
-            title: "Feel, l’expert français de la LED"
-            feel: "Feel lighting c'est :"
-            hometitle1: "Société lilloise créée en 2002"
-            homepara1: "Spécialisée dans l’étude et la fabrication de dispositifs d’éclairage à LED, FEEL se distingue par sa capacité d’innovation et sa réactivité"
-            hometitle2: "Maîtrise des technologies"
-            homepara2: "Le management thermique, l’optique et bien entendu les platines à LED pilotées par des alimentations également conçues en interne."
-            hometitle3: "Feel c'est aussi..."
-            homepara3: " L’association de solutions solaires, éolienne, détection de présence, communication RF. Cela nous permet de répondre aux exigences techniques des clients aux conditions économiques définies à l’origine du projet."
-            hometitle4: "Fabrication française"
-            homepara4: "Notre process fabrication est intégralement réalisé en France afin de garantir une qualité irréprochable. Toutes nos conceptions sont réalisées rigoureusement selon les normes applicables."
-            titleeco: "Feel -  Les LED - L'écologie"
+            title: "Feel, the French specialist of LED"
+            feel: "Feel is:"
+            hometitle1: "Lille company established in 2002"
+            homepara1: "Specialized in the design and manufacture of lighting LED, Feel is distinguished by its capacity for innovation and responsiveness."
+            hometitle2: "Control technologies"
+            homepara2: "Thermal management, optics and of course the LED boards controlled by also designed internal power supplies."
+            hometitle3: "Feel is also ..."
+            homepara3: "The combination of solar solutions, wind, presence detection, RF communication. This allows us to meet the technical requirements of the customers to the economic conditions originally defined the project."
+            hometitle4: "French manufacturing"
+            homepara4: "Our manufacturing process is entirely made in France to ensure the highest quality. All of our designs are made strictly in accordance with applicable standards."
+            titleeco: "Feel - LEDs - Ecology"
             paraeco:  >
-                FEEL est le spécialiste dans l’éclairage à base de LED, et solutions de câblages pour les professionnels.<br />
-                Feel c'est une large gamme de produits de projecteurs LED, et tubes LED. Tous plus respectueux de l’environnement.
+                Feel specializes in LED-based lighting and cabling solutions for professionals.<br />
+                Feel is a wide range of LED spotlights products and LED tubes. All more environmentally friendly.
                 En effet l’utilisation d’éclairage permet de diviser par trois la production de CO2 et de diminuer considérablement sa consommation d’énergie.<br />
         connectadmin: "feel-connect"
     product:
         showslug:
-            feature: "Caractéristiques"
-            listing: "Gamme"
-            specification: "Spécifications électriques @ 25°C"
-            pathpj: "Documentation technique"
-            showmore: "Vous voulez en savoir plus ?"
-            login: "Je m'inscris"
+            feature: "Features"
+            listing: "Range"
+            specification: "Electrical specifications @ 25°C"
+            pathpj: "Data sheet"
+            showmore: "Do you want to know more?"
+            login: "I subscribe"
 contactform:
-    name: "Nom"
+    name: "Name"
     email: "Email"
-    category: "Type de demande"
+    category: "Request type"
     categorychoice:
-        contact: "Demande de renseignements"
+        contact: "Information request"
         support: "Support technique"
-    text: "Votre message"
-    submit: "Valider"
+    text: "Your message"
+    submit: "Submit"
 
