@@ -2,13 +2,13 @@ site:
     title : "Default site"
     site: "default.site.fr"
 button:
-    register: "s'inscrire"
-    update: "modifier"
-    create: créer
-    show: voir
-    delete: supprimer
-    find: "rechercher"
-    close: "fermer"
+    register: "S'inscrire"
+    update: "Modifier"
+    create: "Créer"
+    show: "Voir"
+    delete: "Supprimer"
+    find: "Rechercher"
+    close: "Fermer"
 link:
     return: "Retour à la liste"
 views:
@@ -37,7 +37,7 @@ views:
         folowus: "Suivez-nous sur :"
         clientspace: "Espace client"
         galery: "Galerie"
-        tools: "Utilitaire"
+        tools: "Utilitaires"
         toolsconversion: "Conversion"
         toolsfaisceau: "Faisceau lumineux"
         toolsbilan: "Bilan énergétique"
@@ -186,7 +186,7 @@ views:
                 présentes conditions générales de vente seront de la compétence
                 exclusive du tribunal de commerce de Lille.
         about:
-            title: "Qui sommes nous ?"
+            title: "Qui sommes-nous ?"
             subheading1: "Historique"
             paragraph1-1: >
                 <strong>1er avril 2002</strong><br />
@@ -218,7 +218,7 @@ views:
                 Feel est également très souvent sollicitée pour aménager des produits existants ou développer des produits spécifiques sur cahier des charges clients.<br />
                 L’association de solutions solaires, éolienne, domotique, communication RF nous permet de répondre aux exigences techniques des clients aux conditions économiques définies à l’origine du projet.<br />
                 L’étude et la réalisation de nos produits fabriqués en France sont réalisées selon des critères de qualité internes similaires à la norme ISO 9001 v2000.<br />
-            subheading3: "L'équipe Feel Lighting"
+            subheading3: "L'équipe"
             paragraph3: >
                 Direction commerciale : M. Alexandre Richard – arichard.feel@orange.fr<br />
                 Administration : M. Julien Finez – jfinez.feel@orange.fr<br />
@@ -229,22 +229,22 @@ views:
             subheading4: "Nos partenaires"
         galery:
             title: "Galerie"
-            item1: "Unoky"
+            item1: "Hunoky"
             item2: "La Défense - Candélabre 4 temps"
             item3: "MAJE - Caisson"
-            item4: "AIER-EASY"
-            item5: "Colonne-RGB"
-            item6: "IR000071"
-            item7: "Lustre-3PAR56"
-            item8: "Oeuf"
-            item9 : "Tequila-Tezon"
+            item4: "AIER - PLV"
+            item5: "Colonne - RGB"
+            item6: "Image thermique"
+            item7: "Portique - 3 x 56"
+            item8: "Galeries Lafayette - Oeuf"
+            item9 : "TEZON - Téquila"
         toolsconversion:
             title: "Conversion"
     HWIOAuthBundle:
         connect:
             login:
                 title1: "Connexion"
-                title2: "Avec votre compte préféré !"
+                title2: "Avec votre compte :"
                 title3: "Ou avec votre compte feel-lighting.fr"
                 login: "Connexion"
                 register: "Inscription"
