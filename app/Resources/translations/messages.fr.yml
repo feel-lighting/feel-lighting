@@ -23,8 +23,8 @@ views:
         loginregister: "Connexion / Inscription"
         usershow: "Mon compte"
         contact: "Contact"
-        product: "Nos produits"
-        category: "Category"
+        product: "Produits"
+        category: "Catégories"
         adminproduct: "Produits"
         admincategory: "Catégories"
         adminitemhome: "Carrousel"
@@ -59,13 +59,7 @@ views:
             title: "Mentions légales"
             subheading1: "Feel, l’expert français de la LED"
             paragraph1: >
-                En accédant et en utilisant le site de la société Feel Lighting, maintenant et à n’importe quel moment dans le futur,
-                vous acceptez les conditions suivantes :<br />bien que nous ayons pris soin d’assurer l’exactitude des informations qui se trouvent sur le site de la société Feel Lighting,
-                l’information sur ce site est fournie sans représentation ou garantie.<br />En aucun cas la société Feel Lighting ne sera responsable à propos de l’utilisation des informations disponibles,
-                sauf indication contraire.<br />La société Feel Lighting ne garantit pas que les sites ou les serveurs qui mettent à disposition ce site sont dépourvus de tout virus ou de tout autre élément
-                nuisible. La société Feel Lighting se réserve le droit de modifier ou de mettre à jour les informations mises à votre disposition sur le site à n’importe quel moment sans avis préalable.<br />
-                Les informations fournies sur le site peuvent uniquement être utilisées, copiées ou distribuées sans être modifiées dans un but d’information personnel et doivent stipuler la mention copyright
-                Feel Lighting. Le copyright du site et de son contenu demeure la propriété de la société Feel Lighting. Tous droits de reproduction réservés.
+                En accédant et en utilisant le site de la société Feel maintenant et à n’importe quel moment dans le futur, vous acceptez les conditions suivantes : bien que nous ayons pris soin d’assurer l’exactitude des informations qui se trouvent sur le site de la société Feel, l’information sur ce site est fournie sans représentation ou garantie. En aucun cas la société Feel ne sera responsable à propos de l’utilisation des informations disponibles, sauf indication contraire. La société Feel ne garantit pas que les sites ou les serveurs qui mettent à disposition ce site sont dépourvus de tout virus ou de tout autre élément nuisible. La société Feel se réserve le droit de modifier ou de mettre à jour les informations mises à votre disposition sur le site à n’importe quel moment sans avis préalable. Les informations fournies sur le site peuvent uniquement être utilisées, copiées ou distribuées sans être modifiées dans un but d’information personnel et doivent stipuler la mention copyright « Feel Lighting ». Le copyright du site et de son contenu demeure la propriété de la société Feel. Tous droits de reproduction réservés.
         termsandconditions:
             title: "Conditions générales de vente"
             subheading1: "GÉNÉRALITÉS"
@@ -253,7 +247,7 @@ views:
             title: "Feel, l’expert français de la LED"
             feel: "Feel lighting c'est :"
             hometitle1: "Société lilloise créée en 2002"
-            homepara1: "Spécialisée dans l’étude et la fabrication de dispositifs d’éclairage à LED, FEEL se distingue par sa capacité d’innovation et sa réactivité"
+            homepara1: "Spécialisée dans l’étude et la fabrication de dispositifs d’éclairage à LED, Feel se distingue par sa capacité d’innovation et sa réactivité"
             hometitle2: "Maîtrise des technologies"
             homepara2: "Le management thermique, l’optique et bien entendu les platines à LED pilotées par des alimentations également conçues en interne."
             hometitle3: "Feel c'est aussi..."
@@ -262,7 +256,7 @@ views:
             homepara4: "Notre process fabrication est intégralement réalisé en France afin de garantir une qualité irréprochable. Toutes nos conceptions sont réalisées rigoureusement selon les normes applicables."
             titleeco: "Feel -  Les LED - L'écologie"
             paraeco:  >
-                FEEL est le spécialiste dans l’éclairage à base de LED, et solutions de câblages pour les professionnels.<br />
+                Feel est le spécialiste dans l’éclairage à base de LED, et solutions de câblages pour les professionnels.<br />
                 Feel c'est une large gamme de produits de projecteurs LED, et tubes LED. Tous plus respectueux de l’environnement.
                 En effet l’utilisation d’éclairage permet de diviser par trois la production de CO2 et de diminuer considérablement sa consommation d’énergie.<br />
         connectadmin: "feel-connect"

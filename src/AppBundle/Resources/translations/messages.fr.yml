@@ -1,7 +1,7 @@
 views:
     app:
         about:
-            title: "Qui sommes nous ?"
+            title: "Qui sommes-nous ?"
         mention:
             title: "Mentions légales"
         termsandconditions:

@@ -29,7 +29,7 @@ views:
         admincategory: "Categories"
         adminitemhome: "Carousel"
         adminuploadtinymce: "Upload"
-        plus: "Do you want to know more about us?"
+        plus: "More about us?"
         cond: "Terms and conditions"
         about: "About us"
         contact: "Contact us"
@@ -57,128 +57,54 @@ views:
                 Lighting manufacturer<br />
         mention:
             title: "Legal information"
-            subheading1: "Feel, the French specialist of LED"
+            subheading1: "Feel, the French LED specialist"
             paragraph1: >
                 By accessing and using the website of Feel company, now and at any time in the future, you agree to the following conditions: Although we have taken great care to ensure the accuracy of the information found on Feel company website, the information on this website is provided without representation or warranty. In no event shall the Feel company be liable about the use of available information, unless otherwise indicated. Feel company does not guarantee that the websites or the servers that make available this website are free of viruses or other harmful components. Feel company reserves the right to modify or update the information made available on the website at any time without notice. The information provided on the website can only be used, copied or distributed without modification for the purpose of personal information and copyright must stipulate "Feel Lighting" mention. The copyright of the website and its content is the property of the Feel company. All rights reserved.
         termsandconditions:
             title: "Terms and conditions"
             subheading1: "GENERALITIES"
             paragraph1: >
-                Le contrat est soumis à la loi française.<br />
-                L’acceptation de notre offre implique votre adhésion totale aux
-                présentes conditions. Toutefois certaines modifications peuvent y
-                être apportées.<br />
-                Ces modifications devront être précisées clairement par nos
-                soins, soit dans les conditions particulières ci-après, soit dans
-                l’accusé de réception de commande.
+                The contract is subject to French law.</br>
+                Acceptance of our offer implies your total acceptance of these conditions. However, some changes may be made.</ br>
+                These changes should be clearly specified by us, or in the special conditions below, either in the acknowledgment of order receipt.</ br>
             subheading2: "QUOTE - OFFER"
             paragraph2: >
-                Tout devis ou offre n’engage FEEL que pour la période de validité
-                indiquée. En l’absence de toute indication de durée, l’offre sera
-                valable durant un mois à compter de la date d’émission.
+                Any quotation or bid commits FEEL that for the period of validity indicated. In the absence of any indication period, the offer will be valid for one month from the date of issue. </ br>
             subheading3: "CANCELLATION"
             paragraph3: >
-                Aucune commande ne pourra être annulée ou retournée sans
-                l’accord écrit de la société. Quel que soit le motif du retour, un
-                abattement de 30% sera déduit de l’avoir adressé au client, ceci
-                pour couvrir les frais de reconditionnement et de remise en
-                conformité.
+                No order can not be canceled or returned without the written agreement of the company. Whatever the reason for return, a discount of 30% will be deducted for having sent to the customer, to cover workover costs and compliance discount.</ br>
             subheading4: "DELIVERY - TIME LIMITS"
             paragraph4: >
-                Les délais de livraison s’entendent à réception la plus tardive des
-                dates suivantes : celle des matières fournies par le client, celle du
-                prototype, celle des indications ou plan de montage, celle de
-                l’accusé de réception du bon de commande. Dans la mesure où
-                l’exécution de nos produits dépends d’éléments extérieurs, les
-                délais portés sur nos offres et devis ne sont donnés qu’à titre
-                indicatif et sans garantie, et ne peuvent entraîner aucune
-                retenue, compensation ou pénalité de retard.
-                En outre, ces délais seront prolongés : si les indications qui nous
-                sont nécessaire pour l’exécution de la commande ne nous sont
-                pas données en temps utile, par des retards de nos principaux
-                fournisseurs, et de manière générale pour tous cas de force
-                majeure (guerre, incendie, grèves, ...).
-                Dans le cas où FEEL assure le transport, la marchandise est
-                réputée de plein droit avoir été livrée en bon état à défaut de
-                réclamations détaillées sur le bon de livraison.
-                Il appartient au client de vérifier les marchandises dès leur
-                réception et de procéder en cas de vice apparent, avarie ou
-                manquant au constat par écrit sur le bon de livraison des réserves
-                émises.
-                Les marchandises voyagent aux risques et périls du client, quel
-                que soient le mode de transport ou les modalités de règlement
-                du transport (FEEL, Client ou Tiers Transporteur).
+                Delivery times are for one more late receipt of the following dates: the materials supplied by the client, the prototype, the indications or timeline, that of the receipt of the order. To the extent that the performance of our products depends on external elements, deadlines contained in our offers and estimates are given for information only and without warranty, and may not lead to any deduction, compensation or late penalty.</ br>
+                In addition, these deadlines will be extended if the indications are we required for execution of the order are not given to us in good time by delays of our main suppliers, and in general for all cases of force majeure ( war, fire, strikes, ...).</ br>
+                In case FEEL transports the goods shall be deemed ipso facto to have been delivered in good condition in the absence of detailed information on the delivery claims.</ br>
+                It is the customer to check the goods upon receipt and to proceed in case of apparent defect, damage or missing the finding in writing on the delivery of the reservations.</ br>
+                Goods at the risk and peril of the customer, regardless of the mode of transport or transport mode of payment (FEEL, Customer or Third Carrier).</ br>
             subheading5: "WARRANTIES"
             paragraph5: >
-                A l’égard de l’Acquéreur, nous assurons la responsabilité
-                afférente aux produits livrés, conformément à la réglementation
-                en vigueur, et garantissons, en conséquence, celui-ci contre toute
-                réclamation ou revendication, judiciaire ou amiable, résultant tant
-                des dommages causés aux biens que des dommages causés aux
-                personnes, du fait desdits produits.
-                Cependant, le total des indemnités ne pourra, de convention
-                expresse, dépasser le prix des produits à l’origine du dommage.
-                Le Fournisseur ne garantit l’Acquéreur, au titre des vices cachés
-                pouvant affectés les produits livrés, que dans le cadre d’un
-                remplacement des produits défectueux, ou des pièces les rendant
-                impropre à l’usage, sans pouvoir être considéré par l’Acquéreur
-                comme responsable des éventuelles conséquences
-                dommageables que ces vices cachés auraient pu entraîner.
-                A cet égard, afin de faire valoir ses droits, l’Acquéreur devra, sous
-                peine de déchéance de toute action s’y rapportant, informer notre
-                société, par écrit, de l’existence des vices dans un délai maximum
-                de 5 (cinq) jours à compter de leur découverte.
-                Nous garantissons en outre l’Acquéreur, et ce sauf erreur de
-                manipulation de sa part, le bon fonctionnement des produits et
-                matériel vendus pendant un délai de 3 mois à compter de la
-                livraison et de la réception par celui-ci desdits produits et
-                matériels.
+                With respect to the Purchaser, we ensure accountability related to the products delivered, in accordance with the regulations, and guarantee therefore it against any claim or demand, or involuntary, based both on damage goods for damage to people, because those products.</ br>
+                However, the total compensation may not, by express agreement, exceed the price of the products causing the damage.</ br>
+                The Supplier guarantees the Purchaser in respect of latent defects affected the products delivered, as part of a replacement of defective products or parts making them unfit for use, without being considered by the Purchaser responsible for any harmful consequences that these hidden defects could have resulted.</ br>
+                In this regard, in order to assert its rights, the Buyer shall, on pain of forfeiture of any action relating thereto, to inform our society, in writing, of the existence of defects within a maximum period of 5 (five) days of their discovery.</ br>
+                We also guarantee the Purchaser, and except handling error on his part, the functioning of goods and materials sold for a period of 3 months from the delivery and receipt by it of the products and materials.</ br>
             subheading6: "SALE PRICE"
             paragraph6: >
-                Nos prix s’entendent (sauf contrat) hors taxes, départ de nos
-                magasins, emballage non inclus.
-                Pour les fournitures additionnelles à une commande principale,
-                les prix et nouveaux délais seront discutés spécialement entre
-                FEEL et le Client.
+                Our prices are (except contract) before tax, from our warehouses, packing not included.</ br>
+                For additional supplies to a main control, prices and further delays will be discussed especially between FEEL and the Customer.</ br>
             subheading7: "PAYMENT CONDITIONS"
             paragraph7: >
-                A défaut de clauses particulières, nos factures sont payables sans
-                escompte à échéance de 30 jours fin de mois le 10. Tout délai de
-                paiement accordé doit faire l’objet d’une convention écrite.
-                Le retard de paiement produit de plein droit et sans mise en
-                demeure (art. 53 de la loi 2001-420 du 15/05/01) l’application
-                d’une indemnité de 15% de clause pénale en sus de l’application
-                d’intérêt de retard selon un taux calculé à 1,5 fois le taux d’intérêt
-                légal ainsi que la déchéance du terme de toutes autres factures
-                qui pourraient exister entre FEEL et le Client.
-                Le non-paiement à l’échéance donne de plein droit à FEEL la
-                suspension de toute autre production en cours destinée au client.
-                Si lors d’une commande précédente, le Client s’est soustrait à
-                l’une de ses obligations (retard de paiement...), un refus pourra lui
-                être opposé, sauf si le Client montre des garanties suffisantes ou
-                un prépaiement. Dans ce cas, aucune ristourne pour paiement
-                comptant ou anticipé ne lui sera accordée.
-                Toute réclamation concernant nos factures doit être portée à
-                notre connaissance par lettre recommandée dans le mois qui suit
-                leur réception. A défaut, elles seront considérées comme
-                acceptées sans aucune réserve.
+                In the absence of particular clauses, our invoices are payable without discount to maturity of 30 days end of month 10. Any given payment period is subject to a written agreement.</ br>
+                Late payment product automatically and without notice (art. 53 of the law 2001-420 of 15/05/01) applying a compensation of 15% penalty clause in addition to the application late payment interest calculated at a rate 1.5 times the legal interest rate and the acceleration of all other bills that may exist between FEEL and the Customer.</ br>
+                Non-payment on the due date given automatically to FEEL the suspension of any ongoing production for the client.</ br>
+                If during a previous order, the Customer has withdrawn one of its obligations (late payment ...), a refusal may be opposed, unless the Customer shows sufficient guarantees or prepayment. In this case, no discount for cash or early payment will be granted.</ br>
+                Any complaint concerning our invoices must be brought to our attention by letter within one month of receipt. Otherwise, they will be deemed accepted without reservation.</ br>
             subheading8: "RESERVATION OF OWNERSHIP"
             paragraph8: >
-                FEEL conserve la propriété des marchandises vendues jusqu’au
-                paiement effectif de l’intégralité du prix en principal et accessoire.
-                Le défaut de paiement peut entraîner la revendication des
-                marchandises concernées.
-                Ces dispositions ne font pas obstacles au transfert à l’acheteur,
-                dès la livraison ou la remise au transporteur, des risques de perte
-                et de détérioration des biens vendus ainsi que des dommages
-                qu’ils pourraient occasionner. Il appartient au client d’assurer les
-                marchandises livrées et non payées.
+                FEEL retains ownership of goods sold until payment of the full price in principal and accessory. Failure to pay could lead to claim the goods concerned.</ br>
+                These provisions are not impediments to the transfer to the buyer upon delivery or delivery to the carrier, the risk of loss and damage of goods sold and the damage they could cause. It is the customer to insure the goods delivered but not paid.</ br>
             subheading9: "JURISDICTIONAL COMPETENCE"
             paragraph9: >
-                Tout litige relatif à l’interprétation, l’exécution ou la rupture
-                découlant des opérations d’achat et de ventes, visées par les
-                présentes conditions générales de vente seront de la compétence
-                exclusive du tribunal de commerce de Lille.
+                Any dispute relating to the interpretation, performance or breach arising from purchases and sales, covered by these terms and conditions shall be within the exclusive jurisdiction of the Commercial Court of Lille.</ br>
         about:
             title: "About us"
             subheading1: "Historical"
