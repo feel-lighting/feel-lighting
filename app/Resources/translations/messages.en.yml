@@ -132,12 +132,12 @@ views:
                 Deployment the effective of the design office.<br />
             subheading2: "Our products"
             paragraph2-1: >
-                Depuis 2009, la société Feel s’est spécialisée dans <strong>l’étude et la fabrication de dispositifs d’éclairage à LED</strong> et se distingue par sa capacité d’innovation et sa réactivité.<br />
-                Forte de 6 années d’expérience dans l’utilisation de LED de puissance, elle maîtrise les technologies associées, à savoir le management thermique, l’optique et bien entendu les platines à LED pilotées par des alimentations également conçues en interne.<br />
-                Aujourd’hui Feel propose une large gamme de produits : <strong>projecteurs, tubes, dalles, réglettes à LED</strong>, etc., tous plus respectueux de l’environnement. L’utilisation d’éclairage permet en effet de diviser par trois la production de CO2 et de diminuer considérablement sa consommation d’énergie.<br />
-                Feel est également très souvent sollicitée pour aménager des produits existants ou développer des produits spécifiques sur cahier des charges clients.<br />
-                L’association de solutions solaires, éolienne, domotique, communication RF nous permet de répondre aux exigences techniques des clients aux conditions économiques définies à l’origine du projet.<br />
-                L’étude et la réalisation de nos produits fabriqués en France sont réalisées selon des critères de qualité internes similaires à la norme ISO 9001 v2000.<br />
+                Since 2009, Feel company specializes in the design and manufacture of LED lighting and is distinguished by its capacity for innovation and responsiveness.</ br>
+                With six years of experience in the use of LEDs for power, she masters associated technologies, namely thermal management, optics and of course the LED boards controlled by also designed internal power supplies.</ br>
+                Feel today offers a wide range of products: projectors, tubes, slabs, strips, LED, etc., all more environmentally friendly. The use of lighting makes it possible to divide by three CO2 production and significantly reduce energy consumption.</ br>
+                Feel is also very often asked to develop existing products or develop specific products to customer specifications.</ br>
+                The combination of solar solutions, wind, home automation, RF communication allows us to meet the technical requirements of the customers to the economic conditions originally defined the project.</ br>
+                The design and manufacture of our products manufactured in France are carried out according to criteria of internal quality similar to ISO 9001 v2000.</ br>
             subheading3: "The team"
             paragraph3: >
                 Sales management : Mr Alexandre Richard – arichard.feel@orange.fr<br />
@@ -184,11 +184,11 @@ views:
             paraeco:  >
                 Feel specializes in LED-based lighting and cabling solutions for professionals.<br />
                 Feel is a wide range of LED spotlights products and LED tubes. All more environmentally friendly.
-                En effet l’utilisation d’éclairage permet de diviser par trois la production de CO2 et de diminuer considérablement sa consommation d’énergie.<br />
+                Indeed the use of lighting can divide by three CO2 production and significantly reduce energy consumption. <br />
         connectadmin: "feel-connect"
     product:
         showslug:
-            feature: "Features"
+            feature: "Technical data"
             listing: "Range"
             specification: "Electrical specifications @ 25°C"
             pathpj: "Data sheet"
