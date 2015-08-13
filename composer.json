@@ -30,8 +30,10 @@
 
         "stof/doctrine-extensions-bundle": "1.2.*@dev",
 
+        "jasny/twig-extensions": "dev-master",
+
         "zimzim62000/user-bundle": "dev-master",
-        "zimzim62000/categoryproduct-bundle": "dev-master",
+        "zimzim62000/categoryproduct-bundle": "1.*@dev",
         "zimzim62000/tools-bundle": "dev-master"
     },
     "require-dev": {

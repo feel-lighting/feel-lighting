@@ -4,42 +4,41 @@ clean=false
 
 if [ $1 = "ccdev" ]
 then
-    php /home/%dir%/bin/console cache:clear
+    php /home/%dir%/app/console cache:clear
     clean=true
     break
 fi
 
 if [ $1 = "ccprod" ]
 then
-    php /home/%dir%/bin/console cache:clear --env=prod
+    php /home/%dir%/app/console cache:clear --env=prod
     clean=true
     break
 fi
 
 if [ $1 = "assets" ]
 then
-    php /home/%dir%/bin/console assets:install --symlink
+    php /home/%dir%/app/console assets:install --symlink
     break
 fi
 
 if [ $1 = "deploy" ]
 then
-    grunt
-    php /home/%dir%/bin/console assetic:dump
+    php /home/%dir%/app/console assetic:dump --env=prod --no-debug
     break
 fi
 
 if [ $1 = "sql" ]
 then
-    php /home/%dir%/bin/console doctrine:schema:update --force
+    php /home/%dir%/app/console doctrine:schema:update --force
     break
 fi
 
 if [ $clean = true ]
 then
-    sudo chmod -R 0770 /home/%dir%/var/cache
-    sudo chown -R %user%:www-data /home/%dir%/var/cache
-    sudo chmod -R 0770 /home/%dir%/var/logs
-    sudo chown -R %user%:www-data /home/%dir%/var/logs
+    sudo chmod -R 0770 /home/%dir%/app/cache
+    sudo chown -R %user%:www-data /home/%dir%/app/cache
+    sudo chmod -R 0770 /home/%dir%/app/logs
+    sudo chown -R %user%:www-data /home/%dir%/app/logs
     break
 fi
