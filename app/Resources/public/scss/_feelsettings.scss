@@ -1,0 +1,77 @@
+
+
+//FONT
+@import url(http://fonts.googleapis.com/css?family=Roboto:300|Roboto+Condensed:700);
+
+
+//COLOR
+$black: #000000;
+$grey: #333333;
+$white: #FFFFFF;
+$lightwhite: #F6F6F6;
+$darkgrey: #696C6D;
+$darkblue: #4A597E;
+$blue: #8598BD;
+$lightblue: #afbde1;
+$lightgrey: #F2F2F2;
+
+.bgblue{
+    background: $blue !important;
+}
+.bglightblue{
+    background: $lightblue !important;
+}
+.bgdarkstyle{
+    background: $darkblue !important;
+}
+.bgdarkgrey{
+    background: $darkgrey !important;
+}
+
+.colorblue{
+  color: $blue !important;
+}
+.colorlightblue{
+  color: $lightblue !important;
+}
+.colordarkstyle{
+  color: $darkblue !important;
+}
+.colordarkgrey{
+  color: $darkgrey !important;
+}
+
+
+$primary-color: $blue;
+$secondary-color: $darkblue;
+
+
+$body-font-family: 'Roboto', sans-serif;//"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+
+$header-font-family: 'Roboto Condensed', sans-serif;
+
+$header-font-color: $darkgrey;
+
+$hr-margin: rem-calc(8);
+
+$crumb-bg: $white; //scale-color($secondary-color, $lightness: 55%);
+
+$crumb-font-color-current: $secondary-color;
+
+
+$table-bg: $lightgrey;
+$table-even-row-bg: $white;
+
+$topbar-bg-color: $darkblue;  ;
+
+$topbar-height: rem-calc(70);
+
+$topbar-dropdown-bg: $darkblue;
+
+$topbar-dropdown-link-bg: $darkblue;
+
+$topbar-link-bg-color-hover: $blue;
+
+$topbar-dropdown-label-color: $white;
+
+$topbar-dropdown-label-bg: $blue;
